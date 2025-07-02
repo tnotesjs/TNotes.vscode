@@ -3,6 +3,12 @@
 
 ## 1. vscode
 
+- [x] [0001. 《Visual Studio Code 权威指南》](https://tdahuyou.github.io/TNotes.vscode/notes/0001.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B/README)
+  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0001.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B/README#1--概述)
+  - [2. 📒 内容简介](https://tdahuyou.github.io/TNotes.vscode/notes/0001.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B/README#2--内容简介)
+  - [3. 📒 作者简介](https://tdahuyou.github.io/TNotes.vscode/notes/0001.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B/README#3--作者简介)
+  - [4. 📒 目录](https://tdahuyou.github.io/TNotes.vscode/notes/0001.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B/README#4--目录)
+  - [5. 🔗 References](https://tdahuyou.github.io/TNotes.vscode/notes/0001.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B/README#5--references)
 - [x] [0038. VSCode 简介](https://tdahuyou.github.io/TNotes.vscode/notes/0038.%20VSCode%20%E7%AE%80%E4%BB%8B/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0038.%20VSCode%20%E7%AE%80%E4%BB%8B/README#1--概述)
 - [x] [0031. explorer.confirmDelete](https://tdahuyou.github.io/TNotes.vscode/notes/0031.%20explorer.confirmDelete/README)
