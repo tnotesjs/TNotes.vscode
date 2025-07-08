@@ -59,3 +59,7 @@
   - [8. ⚙️ Explorer（资源管理器相关配置）](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0037.%20TNotes%20%E7%9A%84%20VSCode%20%E9%85%8D%E7%BD%AE%E9%A1%B9/README.md#8-️-explorer资源管理器相关配置)
   - [9. ⚙️ Others（其他内置配置）](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0037.%20TNotes%20%E7%9A%84%20VSCode%20%E9%85%8D%E7%BD%AE%E9%A1%B9/README.md#9-️-others其他内置配置)
   - [10. ⚙️ VSCode 第三方插件配置](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0037.%20TNotes%20%E7%9A%84%20VSCode%20%E9%85%8D%E7%BD%AE%E9%A1%B9/README.md#10-️-vscode-第三方插件配置)
+
+
+- [ ] [0002. xxx](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0002.%20xxx)
+
