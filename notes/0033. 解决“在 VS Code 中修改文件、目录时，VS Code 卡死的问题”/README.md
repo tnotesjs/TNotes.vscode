@@ -1,4 +1,4 @@
-# [0033. 解决“在 VSCode 中修改文件、目录时，VSCode 卡死的问题”](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0033.%20%E8%A7%A3%E5%86%B3%E2%80%9C%E5%9C%A8%20VSCode%20%E4%B8%AD%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E3%80%81%E7%9B%AE%E5%BD%95%E6%97%B6%EF%BC%8CVSCode%20%E5%8D%A1%E6%AD%BB%E7%9A%84%E9%97%AE%E9%A2%98%E2%80%9D)
+# [0033. 解决“在 VS Code 中修改文件、目录时，VS Code 卡死的问题”](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0033.%20%E8%A7%A3%E5%86%B3%E2%80%9C%E5%9C%A8%20VS%20Code%20%E4%B8%AD%E4%BF%AE%E6%94%B9%E6%96%87%E4%BB%B6%E3%80%81%E7%9B%AE%E5%BD%95%E6%97%B6%EF%BC%8CVS%20Code%20%E5%8D%A1%E6%AD%BB%E7%9A%84%E9%97%AE%E9%A2%98%E2%80%9D)
 
 <!-- region:toc -->
 

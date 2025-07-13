@@ -1,4 +1,4 @@
-# [0037. TNotes 的 VSCode 配置项](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0037.%20TNotes%20%E7%9A%84%20VSCode%20%E9%85%8D%E7%BD%AE%E9%A1%B9)
+# [0037. TNotes 的 VS Code 配置项](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0037.%20TNotes%20%E7%9A%84%20VS%20Code%20%E9%85%8D%E7%BD%AE%E9%A1%B9)
 
 <!-- region:toc -->
 
