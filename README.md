@@ -18,6 +18,8 @@
   - [3. 📒 作者简介](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0001.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B/README.md#3--作者简介)
   - [4. 📒 目录](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0001.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B/README.md#4--目录)
   - [5. 🔗 References](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0001.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B/README.md#5--references)
+- [ ] [0005. xxx](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0005.%20xxx/README.md)
+  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0005.%20xxx/README.md#1--概述)
 
 ## 2. VS Code 简介
 
@@ -94,8 +96,6 @@
   - [8. ⚙️ Explorer（资源管理器相关配置）](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0037.%20TNotes%20%E7%9A%84%20VS%20Code%20%E9%85%8D%E7%BD%AE%E9%A1%B9/README.md#8-️-explorer资源管理器相关配置)
   - [9. ⚙️ Others（其他内置配置）](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0037.%20TNotes%20%E7%9A%84%20VS%20Code%20%E9%85%8D%E7%BD%AE%E9%A1%B9/README.md#9-️-others其他内置配置)
   - [10. ⚙️ VSCode 第三方插件配置](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0037.%20TNotes%20%E7%9A%84%20VS%20Code%20%E9%85%8D%E7%BD%AE%E9%A1%B9/README.md#10-️-vscode-第三方插件配置)
-- [ ] [0005. xxx](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0005.%20xxx/README.md)
-  - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0005.%20xxx/README.md#1--概述)
 - [ ] [0006. xxx](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0006.%20xxx/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0006.%20xxx/README.md#1--概述)
 - [ ] [0007. xxx](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0007.%20xxx/README.md)
