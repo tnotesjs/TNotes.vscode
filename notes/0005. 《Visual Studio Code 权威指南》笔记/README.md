@@ -3,47 +3,48 @@
 <!-- region:toc -->
 
 - [1. 📝 概述](#1--概述)
-- [2. 📒 第 1 章 如何学习 Visual Studio Code](#2--第-1-章-如何学习-visual-studio-code)
-  - [2.1. 学会搜索](#21-学会搜索)
-  - [2.2. 学会提问](#22-学会提问)
-  - [2.3. 学会学习](#23-学会学习)
-- [3. 📒 第 2 章 Visual Studio Code 简介](#3--第-2-章-visual-studio-code-简介)
-  - [3.1. Visual Studio Code 概览](#31-visual-studio-code-概览)
-  - [3.2. Visual Studio Code 简史](#32-visual-studio-code-简史)
-  - [3.3. Visual Studio Code 的优势](#33-visual-studio-code-的优势)
-  - [3.4. Visual Studio Code 开发团队](#34-visual-studio-code-开发团队)
-  - [3.5. Visual Studio Code 是如何做开源的](#35-visual-studio-code-是如何做开源的)
-- [4. 📒 第 3 章 核心组件](#4--第-3-章-核心组件)
-  - [4.1. Electron](#41-electron)
-  - [4.2. Monaco Editor](#42-monaco-editor)
-  - [4.3. TypeScript](#43-typescript)
-  - [4.4. Language Server Protocol](#44-language-server-protocol)
-  - [4.5. Debug Adapter Protocol](#45-debug-adapter-protocol)
-  - [4.6. Xterm.js](#46-xtermjs)
-- [5. 📒 第 4 章 安装与配置](#5--第-4-章-安装与配置)
-  - [5.1. 概览](#51-概览)
-  - [5.2. Linux](#52-linux)
-  - [5.3. macOS](#53-macos)
-  - [5.4. Windows](#54-windows)
-- [6. 📒 第 5 章 快速入门](#6--第-5-章-快速入门)
-  - [6.1. Visual Studio Code Insiders](#61-visual-studio-code-insiders)
-  - [6.2. 设置](#62-设置)
-  - [6.3. 用户界面](#63-用户界面)
-  - [6.4. 编辑功能](#64-编辑功能)
-  - [6.5. 主题](#65-主题)
-  - [6.6. 快捷键](#66-快捷键)
-  - [6.7. 集成终端](#67-集成终端)
-  - [6.8. 中文显示](#68-中文显示)
-- [7. 📒 第 6 章 进阶应用](#7--第-6-章-进阶应用)
-- [8. 📒 第 7 章 插件](#8--第-7-章-插件)
-- [9. 📒 第 8 章 语言深入](#9--第-8-章-语言深入)
-- [10. 📒 第 9 章 前端开发](#10--第-9-章-前端开发)
-- [11. 📒 第 10 章 云计算开发](#11--第-10-章-云计算开发)
-- [12. 📒 第 11 章 物联网开发](#12--第-11-章-物联网开发)
-- [13. 📒 第 12 章 远程开发](#13--第-12-章-远程开发)
-- [14. 📒 第 13 章 Visual Studio family](#14--第-13-章-visual-studio-family)
-- [15. 📒 第 14 章 成为 Visual Studio Code 的贡献者](#15--第-14-章-成为-visual-studio-code-的贡献者)
-- [16. 📒 第 15 章 插件开发](#16--第-15-章-插件开发)
+- [2. 📒 《Visual Studio Code 权威指南》学习笔记大纲](#2--visual-studio-code-权威指南学习笔记大纲)
+  - [2.1. 🎯 第 1 章 如何学习 Visual Studio Code](#21--第-1-章-如何学习-visual-studio-code)
+    - [2.1.1. 学会搜索](#211-学会搜索)
+    - [2.1.2. 学会提问](#212-学会提问)
+    - [2.1.3. 学会学习](#213-学会学习)
+  - [2.2. 🎯 第 2 章 Visual Studio Code 简介](#22--第-2-章-visual-studio-code-简介)
+    - [2.2.1. Visual Studio Code 概览](#221-visual-studio-code-概览)
+    - [2.2.2. Visual Studio Code 简史](#222-visual-studio-code-简史)
+    - [2.2.3. Visual Studio Code 的优势](#223-visual-studio-code-的优势)
+    - [2.2.4. Visual Studio Code 开发团队](#224-visual-studio-code-开发团队)
+    - [2.2.5. Visual Studio Code 是如何做开源的](#225-visual-studio-code-是如何做开源的)
+  - [2.3. 🎯 第 3 章 核心组件](#23--第-3-章-核心组件)
+    - [2.3.1. Electron](#231-electron)
+    - [2.3.2. Monaco Editor](#232-monaco-editor)
+    - [2.3.3. TypeScript](#233-typescript)
+    - [2.3.4. Language Server Protocol](#234-language-server-protocol)
+    - [2.3.5. Debug Adapter Protocol](#235-debug-adapter-protocol)
+    - [2.3.6. Xterm.js](#236-xtermjs)
+  - [2.4. 🎯 第 4 章 安装与配置](#24--第-4-章-安装与配置)
+    - [2.4.1. 概览](#241-概览)
+    - [2.4.2. Linux](#242-linux)
+    - [2.4.3. macOS](#243-macos)
+    - [2.4.4. Windows](#244-windows)
+  - [2.5. 🎯 第 5 章 快速入门](#25--第-5-章-快速入门)
+    - [2.5.1. Visual Studio Code Insiders](#251-visual-studio-code-insiders)
+    - [2.5.2. 设置](#252-设置)
+    - [2.5.3. 用户界面](#253-用户界面)
+    - [2.5.4. 编辑功能](#254-编辑功能)
+    - [2.5.5. 主题](#255-主题)
+    - [2.5.6. 快捷键](#256-快捷键)
+    - [2.5.7. 集成终端](#257-集成终端)
+    - [2.5.8. 中文显示](#258-中文显示)
+  - [2.6. 🎯 第 6 章 进阶应用](#26--第-6-章-进阶应用)
+  - [2.7. 🎯 第 7 章 插件](#27--第-7-章-插件)
+  - [2.8. 🎯 第 8 章 语言深入](#28--第-8-章-语言深入)
+  - [2.9. 🎯 第 9 章 前端开发](#29--第-9-章-前端开发)
+  - [2.10. 🎯 第 10 章 云计算开发](#210--第-10-章-云计算开发)
+  - [2.11. 🎯 第 11 章 物联网开发](#211--第-11-章-物联网开发)
+  - [2.12. 🎯 第 12 章 远程开发](#212--第-12-章-远程开发)
+  - [2.13. 🎯 第 13 章 Visual Studio family](#213--第-13-章-visual-studio-family)
+  - [2.14. 🎯 第 14 章 成为 Visual Studio Code 的贡献者](#214--第-14-章-成为-visual-studio-code-的贡献者)
+  - [2.15. 🎯 第 15 章 插件开发](#215--第-15-章-插件开发)
 
 <!-- endregion:toc -->
 
@@ -54,11 +55,13 @@
   - 《Visual Studio Code 权威指南》
   - vscode 官方文档
 
-## 2. 📒 第 1 章 如何学习 Visual Studio Code
+## 2. 📒 《Visual Studio Code 权威指南》学习笔记大纲
+
+### 2.1. 🎯 第 1 章 如何学习 Visual Studio Code
 
 - 提到 vscode 的内容非常多，本书无法讲解完全，因此，在第一章，特地讲讲如何学习 vscode，授人以鱼不如授人以渔，若在学习 vscode 的过程中遇到了问题，可以自行查阅相关资料来解决。
 
-### 2.1. 学会搜索
+#### 2.1.1. 学会搜索
 
 - Google
 - stack overflow
@@ -67,12 +70,12 @@
 - vscode github：https://github.com/microsoft/vscode
 - vscode github Issues：https://github.com/microsoft/vscode/issues
 
-### 2.2. 学会提问
+#### 2.1.2. 学会提问
 
 - 先自行查阅资料
 - 确实没有解决方案，可考虑向 github 提 Issues，注意描述要详细一些，比如必要的截图，软件版本等，以便尝试帮你解决问题的人能更好的理解你的问题，复现你的问题。
 
-### 2.3. 学会学习
+#### 2.1.3. 学会学习
 
 - “师者，所以传道授业解惑也。”
   - 顺序：传道 -> 授业 -> 解惑
@@ -81,18 +84,18 @@
 - 知其然知其所以然
 - 举一反三
 
-## 3. 📒 第 2 章 Visual Studio Code 简介
+### 2.2. 🎯 第 2 章 Visual Studio Code 简介
 
 - Visual Studio Code 是一款免费且开源的现代化轻量级代码编辑器，支持几乎所有主流开发语言的语法高亮、智能代码补全、自定义快捷键、括号匹配和颜色区分、代码片段提示、代码对比等特性，也拥有对 Git 的开箱即用的支持。同时，它还支持插件扩展，通过丰富的插件，用户能获得更多高效的功能。
 
-### 3.1. Visual Studio Code 概览
+#### 2.2.1. Visual Studio Code 概览
 
 - 跨平台
 - IntelliSense（智能提示）
 - 代码调试
 - 内置的 Git 支持
 
-### 3.2. Visual Studio Code 简史
+#### 2.2.2. Visual Studio Code 简史
 
 - 2015 年 4 月 29 日，在微软 Build 2015 大会上，微软发布了 Visual Studio Code 的第一个预览版本。
 - 2015 年 11 月 18 日，微软的 Visual Studio Code 团队将 Visual Studio Code 在 GitHub 上开源，并采用 MIT 许可证，同时宣布将支持插件机制。
@@ -103,7 +106,7 @@
 - 2019 年 5 月 2 日，在 PyCon 2019 大会上，微软发布了 Visual Studio Code Remote Development，以便帮助开发者在容器、物理或虚拟机，以及 Windows Subsystem for Linux（WSL，适用于 Linux 的 Windows 子系统）中实现无缝的远程开发。
 - 2019 年 11 月 4 日，在微软 Ignite 2019 大会上，微软正式发布了 Visual Studio Online，一个由云服务支撑的开发环境。除了支持通过浏览器连接到 Visual Studio Online 云开发环境，还支持通过 Visual Studio Code 和 Visual Studio 来连接。
 
-### 3.3. Visual Studio Code 的优势
+#### 2.2.3. Visual Studio Code 的优势
 
 - 在 stack overflow 上，是排名第一的 IDE，最受开发者欢迎。
 - 学习成本低
@@ -122,44 +125,44 @@
   - Visual Studio Live Share
   - Visual Studio IntelliCode
 
-### 3.4. Visual Studio Code 开发团队
+#### 2.2.4. Visual Studio Code 开发团队
 
 - Erich Gamma
   - Visual Studio Code 的总负责人兼总设计师是 Erich Gamma
   - 《设计模式：可复用面向对象软件的基础》 —— 这本书从头到尾就是在教你如何从零开始打造一个文本编辑工具
 - 开发团队中，有一部分是曾经 Eclipse 的开发者。
 
-### 3.5. Visual Studio Code 是如何做开源的
+#### 2.2.5. Visual Studio Code 是如何做开源的
 
 - 开放源码
 - 积极响应社区的 Issues 和 PR
 - 产品计划、设计规划开源
 - 抽离核心组件开源
 
-## 4. 📒 第 3 章 核心组件
+### 2.3. 🎯 第 3 章 核心组件
 
-### 4.1. Electron
+#### 2.3.1. Electron
 
 - Electron 以 Node.js 作为运行时(runtime)，以 Chromium 作为渲染引擎，使开发者可以使用 HTML、CSS 和 JavaScript 这样的前端技术栈来开发跨平台桌面 GUI 应用程序。
 
-### 4.2. Monaco Editor
+#### 2.3.2. Monaco Editor
 
 - Monaco Editor 是一个基于浏览器的代码编辑器，支持业界主流的浏览器：IE 11、Edge、Chrome、Firefox、Safari 和 Opera。
 - 它包含了一个编辑器所需要的众多功能：智能提示、代码验证、语法高亮、代码片段、代码格式化、代码跳转、键盘快捷键、文件比较等。
 
-### 4.3. TypeScript
+#### 2.3.3. TypeScript
 
 - TypeScript 是 JavaScript 的严格超集。
 - TypeScript 的设计目标就是开发大型应用，解决开发者在使用 JavaScript 进行开发的过程中的痛点。
 
-### 4.4. Language Server Protocol
+#### 2.3.4. Language Server Protocol
 
 - 语言服务器(Language Server)提供了诸如自动补全、定义跳转、代码格式化等与编程语言相关的功能。
 - Language Server Protocol(LSP)是编辑器/IDE 与语言服务器之间的一种协议，通过 JSON-RPC 传输消息，可以让不同的编辑器/IDE 方便嵌入各种编程语言，使得开发人员能在最喜爱的工具中使用各种语言来编写程序。
 - LSP 最初只是为 Visual Studio Code 而开发的。到了 2016 年 6 月 27 日，微软宣布与 Red Hat 和 Codenvy 一起合作，标准化了 Language Server Protocol 的规范。如今，众多主流语言都已经有了相应的 Language Server，许多编辑器/IDE 也都支持了 LSP，包括 Visual Studio Code、Visual Studio、Eclipse IDE、Eclipse Che、Eclipse Theia、Atom、Sublime Text、Emacs、Qt Creator 等。
 - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-14-20-04-32.png)
 
-### 4.5. Debug Adapter Protocol
+#### 2.3.5. Debug Adapter Protocol
 
 - Debug Adapter Protocol（DAP） 是一种调试通信协议 ，由 Microsoft 提出并开源，用于在 **编辑器/IDE（如 VS Code）** 和 **调试后端（如调试器、运行时环境）** 之间建立统一的通信接口。
 - 背景：传统的调试方式中，每种语言或平台都需要编辑器单独集成对应的调试逻辑，导致开发复杂、维护困难。
@@ -192,42 +195,42 @@
   - Debug Adapter Protocol 官方文档 -> https://microsoft.github.io/debug-adapter-protocol/
   - VS Code Debugging 文档 -> https://code.visualstudio.com/docs/debugtest/debugging
 
-### 4.6. Xterm.js
+#### 2.3.6. Xterm.js
 
 - Xterm.js 是一个使用 TypeScript 开发的前端组件，它把完整的终端功能带入了浏览器。
 - Xterm.js 可以与 Electron 开发的应用进行无缝集成，而 Visual Studio Code 又是基于 Electron 开发的，所以 Visual Studio Code 的集成终端可以方便地基于 Xterm.js 进行开发。
 - 无论是 CMD、PowerShell、WSL、bash、sh、zsh，还是其他终端，用户都可以直接在 Visual Studio Code 中自由使用，而不用在 Visual Studio Code 和其他终端应用之间进行来回切换。
 
-## 5. 📒 第 4 章 安装与配置
+### 2.4. 🎯 第 4 章 安装与配置
 
 - https://code.visualstudio.com/download
 
-### 5.1. 概览
+#### 2.4.1. 概览
 
 - 跳过
 
-### 5.2. Linux
+#### 2.4.2. Linux
 
 - 跳过
 
-### 5.3. macOS
+#### 2.4.3. macOS
 
 - 跳过
 
-### 5.4. Windows
+#### 2.4.4. Windows
 
 - 跳过
 
-## 6. 📒 第 5 章 快速入门
+### 2.5. 🎯 第 5 章 快速入门
 
-### 6.1. Visual Studio Code Insiders
+#### 2.5.1. Visual Studio Code Insiders
 
 - Visual Studio Code 每个月都会发布一个新版本，我们称之为稳定版。
 - 除了稳定版，Visual Studio Code 还提供了一个 Insiders 版本。Insiders 版本与稳定版的最大区别就是更新周期。稳定版每个月更新一次，而 Insiders 版本每天都会更新。
 - Insiders 版本的用户可以更快地获取到最新的功能及 bug 修复，而不用等待一个月的时间。这很适合喜欢尝鲜的用户。此外，Insiders 版本还有一个好处，它可以与稳定版在同一台机器上并存，而且用户配置、颜色主题、快捷键设置、插件等都是相互独立的。
 - Insiders 版缺点：测试没有稳定版全面，在体验最新功能的同时，也可能会遇到最新的 bug。
 
-### 6.2. 设置
+#### 2.5.2. 设置
 
 - 根据不同的作用范围分类：
   - 用户设置(User Settings)：这是一个全局范围的设置，会应用到所有的 Visual Studio Code 实例中。
@@ -244,7 +247,7 @@
   - 可以通过 `cmd ,`（macos）、`ctrl ,`（Windows）快速打开设置页面
   - ![图 5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-14-20-27-05.png)
 
-### 6.3. 用户界面
+#### 2.5.3. 用户界面
 
 - https://code.visualstudio.com/docs/getstarted/userinterface
 - 基本布局
@@ -347,29 +350,101 @@
     - 默认情况下，VS Code 会恢复你在之前会话中处理过的所有窗口（设置： all ）。将此设置更改为 none 可永不重新打开任何窗口，始终以空白的 VS Code 实例启动。
     - 更改为 one 可重新打开你上次处理的窗口，或更改为 folders 仅恢复那些曾打开过文件夹的窗口。
 
-### 6.4. 编辑功能
+#### 2.5.4. 编辑功能
 
+- https://code.visualstudio.com/docs/editing/codebasics
 - 多光标
+  - Multiple selections (multi-cursor)
+  - VS Code 支持多光标同步快速编辑。通过 `Alt+点击` 可添加次级光标（显示较细）。每个光标会根据所处上下文独立操作。
+  - 常用添加方式是通过 `⌥⌘↓` 或 `⌥⌘↑` 在下方或上方插入新光标。
+  - 第一次按下 `Ctrl+D` 快捷键，会选择当前光标处的单词。再次按下 `Ctrl+D` 快捷键，会在下一个相同单词的位置添加一个新的光标。
+  - 按下快捷键 `Ctrl+Shift+L`，会在当前光标处的单词所有出现的位置，都添加新的光标。
 - 列选择
+  - 把光标放在要选择的区域的左上角，按住 `Shift+Alt` 快捷键，然后把光标拖至右下角，就完成了对文字的列选择。
+  - 也可以按下鼠标中键拖动选择。
 - 自动保存
+  - File → Auto Save
+  - `files.autoSave` 配置自动保存的模式
+  - `files.autoSaveDelay` 配置自动保存的延迟时间
 - 热退出
-- 搜索与替换
-- 跨文件搜索
-- IntelliSense
+  - 作用：保留未保存更改、恢复编辑器状态、提升工作效率。
+- 搜索
+  - 按下 ⌘F 即可在编辑器中打开查找控件并输入搜索字符串。搜索结果会在编辑器、概览标尺和缩略图中高亮显示。
+  - 搜索选项：
+    - 区分大小写
+    - 全字匹配
+    - 正则表达式匹配
+  - 支持搜索替换
+  - 长度可自由拖拽
+  - 支持跨文件搜索
+  - 支持在选中的内容中进行搜索
+  - 支持将搜索结果独立到视图中，且视图可编辑
+- 智能提示 IntelliSense
+  - 编写代码键入内容时，根据输入的内容生成智能提示。
+  - https://code.visualstudio.com/docs/editing/intellisense
 - 代码格式化
+  - shift + alt + f
+  - 格式化选定内容：ctrl + k、ctrl + f
+  - `editor.formatOnSave` 保存时自动格式化
+  - `editor.formatOnType` 在键入一新行后自动格式化旧行
+  - `editor.formatOnSaveMode` 配置保存后自动格式化的模式 - 可控制在保存时设置格式是设置整个文件格式还是仅设置修改内容的格式。
 - 代码折叠
+  - 通过单击行号与代码之间的折叠图标，可以折叠或展开代码块。
+  - 支持 region
+  - 折叠 `⌥⌘[` - 折叠光标所在位置最内层未折叠的代码区域。
+  - 展开 `⌥⌘]` - 展开光标所在位置已折叠的代码区域。
 - 缩进
+  - 支持 tab 或空格
+  - 支持配置缩进大小
 - 文件编码
+  - 若遇到乱码问题，可自行选择任意支持的编码后重新打开 vscode。
 
-### 6.5. 主题
+#### 2.5.5. 主题
 
-### 6.6. 快捷键
+- 颜色主题
+  - 打开主题选择器：命令面板输入命令 `Preferences: Color Theme`
+  - ![图 5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-20-24.png)
+  - ![图 6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-21-29.png)
+  - 可以使用方向键上下移动，选择不同的颜色主题进行预览。在确定使用的主题之后，按下 Enter 键即可完成选择。
+- 图标主题
+  - `Preferences: File Icon Theme`
+  - ![图 7](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-23-46.png)
+  - 相关插件：`Material Icon Theme`、`vscode-icons`
+  - ![图 8](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-26-08.png)
+  - 可以在插件面板中搜索关键字，比如 `icon theme`，然后根据安装量来排序，排在最前面的两个目前 `25.07` 是 `Material Icon Theme`、`vscode-icons` 这两个。
 
-### 6.7. 集成终端
+#### 2.5.6. 快捷键
 
-### 6.8. 中文显示
+- 快捷键的组成：
+  - key：描述具体的按键。
+  - command：定义要执行的命令。
+  - when：这是可选的部分，定义在什么条件下此快捷键规则是生效的。
+- 打开快捷键面板：
+  - 命令：`Preferences: Open Keyboard Shortcuts`
+  - 快捷键：`Ctrl+K Ctrl+S`
+  - 你可以在此面板更便捷地管理快捷方式
+    - 搜索和编辑所有快捷键
+    - 右键查看冲突的快捷键
+    - 删除快捷键
+    - 修改快捷键的作用条件 `when`
+    - 直接编辑快捷键配置的 JSON 文件 `keybindings.json`
+    - ……
+  - ![图 9](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-30-15.png)
+- 查看快捷键大全：
+  - 命令：`Help: Keyboard Shortcuts Reference`
+  - 快捷键：`Ctrl+K Ctrl+R`
+  - ![图 10](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-32-33.png)
+  - 这会打开一个在线的 pdf 文件，里面有所有快捷键的大全。
+  - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
+- 键盘映射插件
+  - 如果你是从 Vim、Sublime、IntelliJ、Atom、Eclipse、Visual Studio 或其他编辑器/IDE 转投到 Visual Studio Code 的，也许你依旧习惯使用原来开发工具的键盘快捷键。Visual Studio Code 对于主流的开发工具提供了各种键盘映射的插件，让你可以在 Visual Studio Code 中继续使用原来的开发工具的快捷键，而不用重新学习 Visual Studio Code 的快捷键。
+  - ![图 11](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-37-18.png)
 
-## 7. 📒 第 6 章 进阶应用
+#### 2.5.7. 集成终端
+
+#### 2.5.8. 中文显示
+
+### 2.6. 🎯 第 6 章 进阶应用
 
 - 6.1 命令行
 - 6.2 IntelliSense
@@ -381,13 +456,13 @@
 - 6.8 Multi-root Workspaces
 - 6.9 调试与运行
 
-## 8. 📒 第 7 章 插件
+### 2.7. 🎯 第 7 章 插件
 
 - 7.1 插件市场
 - 7.2 插件管理
 - 7.3 那些不错的插件
 
-## 9. 📒 第 8 章 语言深入
+### 2.8. 🎯 第 8 章 语言深入
 
 - 8.1 概览
 - 8.2 Python
@@ -399,7 +474,7 @@
 - 8.8 Go
 - 8.9 更多语言支持
 
-## 10. 📒 第 9 章 前端开发
+### 2.9. 🎯 第 9 章 前端开发
 
 - 9.1 HTML
 - 9.2 CSS、SCSS 和 Less
@@ -409,7 +484,7 @@
 - 9.6 Vue
 - 9.7 前端插件推荐
 
-## 11. 📒 第 10 章 云计算开发
+### 2.10. 🎯 第 10 章 云计算开发
 
 - 10.1 微软 Azure
 - 10.2 AWS
@@ -417,7 +492,7 @@
 - 10.4 阿里云
 - 10.5 腾讯云
 
-## 12. 📒 第 11 章 物联网开发
+### 2.11. 🎯 第 11 章 物联网开发
 
 - 11.1 设备端开发
 - 11.2 设备上云
@@ -425,7 +500,7 @@
 - 11.4 边缘计算
 - 11.5 物联网插件推荐
 
-## 13. 📒 第 12 章 远程开发
+### 2.12. 🎯 第 12 章 远程开发
 
 - 12.1 远程开发概览
 - 12.2 远程开发插件
@@ -433,14 +508,14 @@
 - 12.4 容器
 - 12.5 WSL
 
-## 14. 📒 第 13 章 Visual Studio family
+### 2.13. 🎯 第 13 章 Visual Studio family
 
 - 13.1 Visual Studio、Visual Studio Code、Visual Studio Codespaces，你都分清楚了吗
 - 13.2 Visual Studio Codespaces
 - 13.3 Visual Studio Live Share
 - 13.4 Visual Studio IntelliCode
 
-## 15. 📒 第 14 章 成为 Visual Studio Code 的贡献者
+### 2.14. 🎯 第 14 章 成为 Visual Studio Code 的贡献者
 
 - 14.1 GitHub Issues
 - 14.2 提问
@@ -449,7 +524,7 @@
 - 14.5 插件
 - 14.6 翻译
 
-## 16. 📒 第 15 章 插件开发
+### 2.15. 🎯 第 15 章 插件开发
 
 - 15.1 如何打造一款优秀的 Visual Studio Code 插件
 - 15.2 你的第一个 Visual Studio Code 插件
