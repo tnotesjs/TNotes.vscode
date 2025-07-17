@@ -4,6 +4,7 @@
 
 - [1. 📝 概述](#1--概述)
 - [2. 🔍 查看快捷键大全](#2--查看快捷键大全)
+- [3. 🔗 References](#3--references)
 
 <!-- endregion:toc -->
 
@@ -18,3 +19,8 @@
 - 这会打开一个在线的 pdf 文件，里面有所有快捷键的大全。
 - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
 - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-56-34.png)
+
+## 3. 🔗 References
+
+- https://code.visualstudio.com/docs/configure/keybindings
+  - Keyboard shortcuts for Visual Studio Code
