@@ -55,7 +55,7 @@
     - [2.8.3. JavaScript](#283-javascript)
     - [2.8.4. TypeScript](#284-typescript)
     - [2.8.5. Java](#285-java)
-    - [2.8.6. C#](#286-c)
+    - [2.8.6. C\#](#286-c)
     - [2.8.7. C/C++](#287-cc)
     - [2.8.8. Go](#288-go)
     - [2.8.9. 更多语言支持](#289-更多语言支持)
@@ -262,6 +262,7 @@
 
 ### 2.4. 🎯 第 4 章 安装与配置
 
+- <https://code.visualstudio.com/download>
 - https://code.visualstudio.com/download
 
 #### 2.4.1. 概览
@@ -513,7 +514,7 @@
 
 #### 2.5.8. 中文显示
 
-- 安装一个 vsocde 官方插件：Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
+- 安装一个 vscode 官方插件：Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
 - ![图 12](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-22-10-00.png)
 - 配置显示的语言：`Change Language Mode`
 - ![图 13](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-22-12-02.png)
@@ -703,6 +704,10 @@ code index.html style.css documentation/readme.md
   - `Shift + F12`、`Alt + F12`
   - 窥视功能可以很好地帮你解决这样一个问题 —— 当你只想快速查看某处上下文时，却要被迫进行大幅度的上下文切换操作时。
   - 你可以在嵌入式预览编辑器中浏览不同引用位置，并直接进行快速编辑。点击预览编辑器的文件名或在结果列表中双击，将在外部编辑器中打开该引用。
+- 查找所有引用信息
+  - 通过 `Shift+Alt+F12` 快捷键或编辑区域右键菜单中的 `Find All References`，你可以查看一个符号的所有引用。
+  - VS Code 提供了一个独立的引用面板来展示这些信息。
+  - ![图 16](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-20-02-36-17.png)
 - Bracket matching 括号匹配
   - 当光标靠近其中一个括号时，匹配的括号会立即高亮显示。
   - 使用 `Ctrl+Shift+\` 可以跳转到匹配的括号。
@@ -726,12 +731,92 @@ code index.html style.css documentation/readme.md
 - Rename symbol 重命名符号
   - 部分语言支持跨文件重命名符号。按下 `F2` 键后输入新名称并按 Enter 键，该符号在所有文件中的使用实例都将被重命名。
 - Errors & warnings 错误与警告
+  - 生成
+    - 警告或错误可能由配置的任务、丰富的语言服务或持续在后台分析代码的代码检查工具生成。
+  - 显示
+    - 状态栏会汇总显示所有错误和警告的数量统计。
+    - 可以点击该统计信息或按下 `⇧⌘M` 快捷键，打开"问题"面板查看当前所有错误列表。
+    - 当打开包含错误或警告的文件时，它们会以内联方式显示在文字中。
+    - 要循环浏览当前文件中的错误或警告，可以按下 `⌥F8` 或 `⇧⌥F8`，这将显示一个内联区域，详细说明问题及可能的代码操作（如果可用）。
+- Code Action 代码操作
+  - 警告和错误可能会提供代码操作（也称为快速修复）来帮助解决问题。这些操作会以灯泡图标形式显示在编辑器左侧边栏。点击灯泡图标将显示代码操作选项或直接执行操作。
+- Inlay Hints 内联提示
+  - 某些语言会提供内联提示：即以内联方式呈现的源代码附加信息。这通常用于显示推断类型。
+  - 可以通过 `editor.inlayHints.enabled` 设置启用/禁用内联提示功能，默认处于启用状态。
+- Outgoing link protection 外链安全保护
+  - 为保障您的安全，VS Code 在打开编辑器中的外部网站链接前会显示提示。
+  - 命令面板：`Manage Trusted Domains`，配置信任的域。
+  - ![图 15](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-20-02-08-30.png)
 
 #### 2.6.4. 玩转 Git
 
+- https://code.visualstudio.com/docs/sourcecontrol/intro-to-git
+  - Introduction to Git in VS Code
+- https://code.visualstudio.com/docs/sourcecontrol/overview
+  - Using Git source control in VS Code
+
 #### 2.6.5. 打造自己的主题
 
+- 在 VS Code 中，可配置颜色的地方有很多，若有打造自定义主体的需求，建议直接查阅官方文档来配。
+- https://code.visualstudio.com/api/references/theme-color
+  - Theme Color | Visual Studio Code Extension API
+- https://code.visualstudio.com/docs/configure/themes
+  - Themes - Visual Studio Code
+- settings.json
+  - `workbench.colorCustomizations: { ... }` 配置工作台的主题颜色
+  - `editor.tokenColorCustomizations: { ... }` 配置编辑器的主题颜色
+  - ……
+
 #### 2.6.6. 快速创建可复用的代码片段
+
+- https://code.visualstudio.com/docs/editing/userdefinedsnippets
+  - Snippets in Visual Studio Code
+- 可以通过插件来自动注入一些 snippets，也可以自定义 snippets，还可以为 snippets 添加快捷键。
+- 自定义配置 snippets 示例：**为 vitepress 中的 `code-group` 语法添加一个 snippet**
+  - 命令面板输入 `Snippets: Configure Snippets` 打开 snippets 配置
+  - 找到 markdown 配置文件
+  - 根据官方要求编写配置
+
+::: code-group
+
+````json [Code/User/snippets/markdown.json]
+{
+  // Place your snippets for markdown here. Each snippet is defined under a snippet name and has a prefix, body and
+  // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+  // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+  // same ids are connected.
+  // Example:
+  // "Print to console": {
+  //  "prefix": "log",
+  //  "body": [
+  //    "console.log('$1');",
+  //   "$2"
+  //  ],
+  //  "description": "Log output to console"
+  // }
+  "code-group": {
+    "prefix": ["::: code-group"],
+    "body": [
+      "::: code-group",
+      "",
+      "${1:```txt [1]}",
+      "",
+      "```",
+      "",
+      "${2:```txt [2]}",
+      "",
+      "```",
+      "",
+      ":::"
+    ],
+    "description": "vitepress code-group"
+  }
+}
+````
+
+:::
+
+- ![图 17](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-20-03-09-07.png)
 
 #### 2.6.7. Task，把重复的工作自动化
 
@@ -759,7 +844,7 @@ code index.html style.css documentation/readme.md
 
 #### 2.8.5. Java
 
-#### 2.8.6. C#
+#### 2.8.6. C\#
 
 #### 2.8.7. C/C++
 

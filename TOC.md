@@ -63,7 +63,7 @@
       - [2.8.3. JavaScript](https://tdahuyou.github.io/TNotes.vscode/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0/README#283-javascript)
       - [2.8.4. TypeScript](https://tdahuyou.github.io/TNotes.vscode/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0/README#284-typescript)
       - [2.8.5. Java](https://tdahuyou.github.io/TNotes.vscode/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0/README#285-java)
-      - [2.8.6. C#](https://tdahuyou.github.io/TNotes.vscode/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0/README#286-c)
+      - [2.8.6. C\#](https://tdahuyou.github.io/TNotes.vscode/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0/README#286-c)
       - [2.8.7. C/C++](https://tdahuyou.github.io/TNotes.vscode/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0/README#287-cc)
       - [2.8.8. Go](https://tdahuyou.github.io/TNotes.vscode/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0/README#288-go)
       - [2.8.9. 更多语言支持](https://tdahuyou.github.io/TNotes.vscode/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0/README#289-更多语言支持)

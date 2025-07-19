@@ -213,6 +213,12 @@
 
   // #endregion - breadcrumbs（面包屑导航）
 
+  // #region - markdown
+  "markdownlint.config": {
+    "no-bare-urls": false
+  },
+  // #endregion - markdown
+
   // #region - Others（其他相关配置）
 
   "debug.onTaskErrors": "debugAnyway",
