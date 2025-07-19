@@ -206,6 +206,12 @@
 
   // #endregion - Explorer（资源管理器相关配置）
 
+  // #region - breadcrumbs（面包屑导航）
+
+  "breadcrumbs.symbolPath": "last",
+
+  // #endregion - breadcrumbs（面包屑导航）
+
   // #region - Others（其他相关配置）
 
   "debug.onTaskErrors": "debugAnyway",

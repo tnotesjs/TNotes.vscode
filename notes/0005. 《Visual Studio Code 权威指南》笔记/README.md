@@ -38,7 +38,7 @@
   - [2.6. 🎯 第 6 章 进阶应用](#26--第-6-章-进阶应用)
     - [2.6.1. 命令行](#261-命令行)
     - [2.6.2. IntelliSense](#262-intellisense)
-    - [2.6.3. 代码导航](#263-代码导航)
+    - [2.6.3. Code Navigation 代码导航](#263-code-navigation-代码导航)
     - [2.6.4. 玩转 Git](#264-玩转-git)
     - [2.6.5. 打造自己的主题](#265-打造自己的主题)
     - [2.6.6. 快速创建可复用的代码片段](#266-快速创建可复用的代码片段)
@@ -658,7 +658,36 @@ code index.html style.css documentation/readme.md
 
 #### 2.6.2. IntelliSense
 
-#### 2.6.3. 代码导航
+- https://code.visualstudio.com/docs/editing/intellisense
+- IntelliSense 是各类代码编辑功能的统称，包括：代码补全、参数信息、快速信息以及成员列表。这些功能有时也被称为"代码补全"、"内容辅助"或"代码提示"。
+- Visual Studio Code 的 IntelliSense 功能由语言服务(Language Server)驱动。
+- 当你在输入代码时，如果语言服务能推算出潜在的代码补全，那么就会显示 IntelliSense 的代码补全提示。按下 Tab 键或 Enter 键就可以插入所选择的补全选项。
+- Visual Studio Code 为 JavaScript、TypeScript、JSON、HTML、CSS、SCSS 和 Less 提供了开箱即用的 IntelliSense 功能。VS Code 支持所有编程语言的基于单词的自动补全，但也可以通过安装语言扩展来配置更丰富的 IntelliSense 功能。以下是 Visual Studio Marketplace 中最受欢迎的语言扩展。
+- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-19-13-23-39.png)
+
+#### 2.6.3. Code Navigation 代码导航
+
+- 输入 Ctrl+P（快速打开）后输入文件名即可打开任意文件。
+- Quick file navigation 快速文件导航
+  - 资源管理器非常适合在浏览项目时进行文件导航。但在处理具体任务时，您会发现自己需要频繁地在同一组文件之间跳转。VS Code 提供了两个强大的命令，配合易用的键盘快捷键，可实现文件内及跨文件的高效导航。
+  - 按住 Ctrl 键并按下 Tab 键，可查看当前编辑器组中所有已打开文件的列表。要打开其中某个文件，可继续按 Tab 键选择目标文件，然后松开 Ctrl 键即可打开。
+  - 您也可以使用 Alt+左箭头和 Alt+右箭头在文件与编辑位置之间导航。如果在同一文件的不同行之间跳转，这些快捷键能让您轻松地在这些位置间切换。
+- Breadcrumbs 面包屑导航
+  - 编辑器内容区域上方设有名为"面包屑导航"的导航栏。它能显示当前位置，并支持在文件夹、文件和符号之间快速跳转。
+  - 面包屑导航始终显示文件路径，并通过语言扩展功能展示光标所在位置的符号路径。所显示的符号与大纲视图和"转到符号"功能中的完全一致。
+  - 点击路径中的任意面包屑节点，会显示该层级所有同属项的下拉列表，方便您快速跳转至其他文件夹和文件。
+  - `breadcrumbs.*`
+    - `breadcrumbs.enabled` 配置面包屑导航是否启用。
+    - `breadcrumbs.filePath` 配置面包屑导航的前半段 - 文件路径信息。
+    - `breadcrumbs.symbolPath` 配置面包屑导航的前半段 - 符号路径信息。
+    - ……
+  - `Ctrl+Shift+.` 与面包屑交互，这将选中面包屑导航中的最后一个元素并打开下拉菜单，以便实现快速导航到其他符号。
+  - `Ctrl+Shift+;` 与面包屑交互，这将选中面包屑导航中的最后一个元素但不会打开下拉菜单，这时候你可以使用左右方向键导航，移动到其他位置后，再按方向键下展开导航菜单。
+- Go to Definition 转到定义
+  - 如果语言支持此功能，您可以按 F12 跳转到符号的定义处。
+  - 如果按住 Ctrl 键并将鼠标悬停在符号上，将显示该声明的预览。
+  - 可通过 Ctrl+单击跳转到定义，或使用 Ctrl+Alt+单击在侧边打开定义。
+- Go to Type Definition 转到类型定义
 
 #### 2.6.4. 玩转 Git
 
