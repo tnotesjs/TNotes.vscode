@@ -36,15 +36,73 @@
     - [2.5.7. 集成终端](#257-集成终端)
     - [2.5.8. 中文显示](#258-中文显示)
   - [2.6. 🎯 第 6 章 进阶应用](#26--第-6-章-进阶应用)
+    - [2.6.1. 命令行](#261-命令行)
+    - [2.6.2. IntelliSense](#262-intellisense)
+    - [2.6.3. 代码导航](#263-代码导航)
+    - [2.6.4. 玩转 Git](#264-玩转-git)
+    - [2.6.5. 打造自己的主题](#265-打造自己的主题)
+    - [2.6.6. 快速创建可复用的代码片段](#266-快速创建可复用的代码片段)
+    - [2.6.7. Task，把重复的工作自动化](#267-task把重复的工作自动化)
+    - [2.6.8. Multi-root Workspaces](#268-multi-root-workspaces)
+    - [2.6.9. 调试与运行](#269-调试与运行)
   - [2.7. 🎯 第 7 章 插件](#27--第-7-章-插件)
+    - [2.7.1. 插件市场](#271-插件市场)
+    - [2.7.2. 插件管理](#272-插件管理)
+    - [2.7.3. 那些不错的插件](#273-那些不错的插件)
   - [2.8. 🎯 第 8 章 语言深入](#28--第-8-章-语言深入)
+    - [2.8.1. 概览](#281-概览)
+    - [2.8.2. Python](#282-python)
+    - [2.8.3. JavaScript](#283-javascript)
+    - [2.8.4. TypeScript](#284-typescript)
+    - [2.8.5. Java](#285-java)
+    - [2.8.6. C#](#286-c)
+    - [2.8.7. C/C++](#287-cc)
+    - [2.8.8. Go](#288-go)
+    - [2.8.9. 更多语言支持](#289-更多语言支持)
   - [2.9. 🎯 第 9 章 前端开发](#29--第-9-章-前端开发)
+    - [2.9.1. HTML](#291-html)
+    - [2.9.2. CSS、SCSS 和 Less](#292-cssscss-和-less)
+    - [2.9.3. Emmet](#293-emmet)
+    - [2.9.4. React](#294-react)
+    - [2.9.5. Angular](#295-angular)
+    - [2.9.6. Vue](#296-vue)
+    - [2.9.7. 前端插件推荐](#297-前端插件推荐)
   - [2.10. 🎯 第 10 章 云计算开发](#210--第-10-章-云计算开发)
+    - [2.10.1. 微软 Azure](#2101-微软-azure)
+    - [2.10.2. AWS](#2102-aws)
+    - [2.10.3. Google Cloud Platform](#2103-google-cloud-platform)
+    - [2.10.4. 阿里云](#2104-阿里云)
+    - [2.10.5. 腾讯云](#2105-腾讯云)
   - [2.11. 🎯 第 11 章 物联网开发](#211--第-11-章-物联网开发)
+    - [2.11.1. 设备端开发](#2111-设备端开发)
+    - [2.11.2. 设备上云](#2112-设备上云)
+    - [2.11.3. 设备模拟](#2113-设备模拟)
+    - [2.11.4. 边缘计算](#2114-边缘计算)
+    - [2.11.5. 物联网插件推荐](#2115-物联网插件推荐)
   - [2.12. 🎯 第 12 章 远程开发](#212--第-12-章-远程开发)
+    - [2.12.1. 远程开发概览](#2121-远程开发概览)
+    - [2.12.2. 远程开发插件](#2122-远程开发插件)
+    - [2.12.3. SSH](#2123-ssh)
+    - [2.12.4. 容器](#2124-容器)
+    - [2.12.5. WSL](#2125-wsl)
   - [2.13. 🎯 第 13 章 Visual Studio family](#213--第-13-章-visual-studio-family)
+    - [2.13.1. Visual Studio、Visual Studio Code、Visual Studio Codespaces，你都分清楚了吗](#2131-visual-studiovisual-studio-codevisual-studio-codespaces你都分清楚了吗)
+    - [2.13.2. Visual Studio Codespaces](#2132-visual-studio-codespaces)
+    - [2.13.3. Visual Studio Live Share](#2133-visual-studio-live-share)
+    - [2.13.4. Visual Studio IntelliCode](#2134-visual-studio-intellicode)
   - [2.14. 🎯 第 14 章 成为 Visual Studio Code 的贡献者](#214--第-14-章-成为-visual-studio-code-的贡献者)
+    - [2.14.1. GitHub Issues](#2141-github-issues)
+    - [2.14.2. 提问](#2142-提问)
+    - [2.14.3. 讨论](#2143-讨论)
+    - [2.14.4. GitHub Pull requests](#2144-github-pull-requests)
+    - [2.14.5. 插件](#2145-插件)
+    - [2.14.6. 翻译](#2146-翻译)
   - [2.15. 🎯 第 15 章 插件开发](#215--第-15-章-插件开发)
+    - [2.15.1. 如何打造一款优秀的 Visual Studio Code 插件](#2151-如何打造一款优秀的-visual-studio-code-插件)
+    - [2.15.2. 你的第一个 Visual Studio Code 插件](#2152-你的第一个-visual-studio-code-插件)
+    - [2.15.3. Visual Studio Code 插件的扩展能力](#2153-visual-studio-code-插件的扩展能力)
+    - [2.15.4. 插件开发面面观](#2154-插件开发面面观)
+    - [2.15.5. 插件开发的生命周期](#2155-插件开发的生命周期)
 
 <!-- endregion:toc -->
 
@@ -464,88 +522,261 @@
 
 ### 2.6. 🎯 第 6 章 进阶应用
 
-- 6.1 命令行
-- 6.2 IntelliSense
-- 6.3 代码导航
-- 6.4 玩转 Git
-- 6.5 打造自己的主题
-- 6.6 快速创建可复用的代码片段
-- 6.7 Task，把重复的工作自动化
-- 6.8 Multi-root Workspaces
-- 6.9 调试与运行
+#### 2.6.1. 命令行
+
+- 命令行帮助
+  - `code --help` vscode 帮助命令，会打印 VS Code 的版本信息及各个命令的详细介绍。
+- 通过命令启动 VS Code
+  - `code .` 使用 VS Code 打开当前文件夹
+  - `code <file>` 使用 VS Code 打开指定文件
+
+```bash
+code --help
+# Visual Studio Code 1.102.1
+
+# Usage: code [options] [paths...]
+
+# To read from stdin, append '-' (e.g. 'ps aux | grep code | code -')
+
+# Options
+#   -d --diff <file> <file>                    Compare two files with each
+#                                              other.
+#   -m --merge <path1> <path2> <base> <result> Perform a three-way merge by
+#                                              providing paths for two
+#                                              modified versions of a file,
+#                                              the common origin of both
+#                                              modified versions and the
+#                                              output file to save merge
+#                                              results.
+#   -a --add <folder>                          Add folder(s) to the last
+#                                              active window.
+#   --remove <folder>                          Remove folder(s) from the last
+#                                              active window.
+#   -g --goto <file:line[:character]>          Open a file at the path on the
+#                                              specified line and character
+#                                              position.
+#   -n --new-window                            Force to open a new window.
+#   -r --reuse-window                          Force to open a file or folder
+#                                              in an already opened window.
+#   -w --wait                                  Wait for the files to be
+#                                              closed before returning.
+#   --locale <locale>                          The locale to use (e.g. en-US
+#                                              or zh-TW).
+#   --user-data-dir <dir>                      Specifies the directory that
+#                                              user data is kept in. Can be
+#                                              used to open multiple distinct
+#                                              instances of Code.
+#   --profile <profileName>                    Opens the provided folder or
+#                                              workspace with the given
+#                                              profile and associates the
+#                                              profile with the workspace. If
+#                                              the profile does not exist, a
+#                                              new empty one is created.
+#   -h --help                                  Print usage.
+
+# Extensions Management
+#   --extensions-dir <dir>              Set the root path for extensions.
+#   --list-extensions                   List the installed extensions.
+#   --show-versions                     Show versions of installed
+#                                       extensions, when using
+#                                       --list-extensions.
+#   --category <category>               Filters installed extensions by
+#                                       provided category, when using
+#                                       --list-extensions.
+#   --install-extension <ext-id | path> Installs or updates an extension. The
+#                                       argument is either an extension id or
+#                                       a path to a VSIX. The identifier of
+#                                       an extension is
+#                                       '${publisher}.${name}'. Use '--force'
+#                                       argument to update to latest version.
+#                                       To install a specific version provide
+#                                       '@${version}'. For example:
+#                                       'vscode.csharp@1.2.3'.
+#   --pre-release                       Installs the pre-release version of
+#                                       the extension, when using
+#                                       --install-extension
+#   --uninstall-extension <ext-id>      Uninstalls an extension.
+#   --update-extensions                 Update the installed extensions.
+#   --enable-proposed-api <ext-id>      Enables proposed API features for
+#                                       extensions. Can receive one or more
+#                                       extension IDs to enable
+#                                       individually.
+
+# Model Context Protocol
+#   --add-mcp <json> Adds a Model Context Protocol server definition to the
+#                    user profile. Accepts JSON input in the form
+#                    '{"name":"server-name","command":...}'
+
+# Troubleshooting
+#   -v --version
+#       Print version.
+#   --verbose
+#       Print verbose output (implies --wait).
+#   --log <level>
+#       Log level to use. Default is 'info'. Allowed values are 'critical', 'error', 'warn', 'info', 'debug', 'trace', 'off'. You can also configure the log level of an extension by passing extension id and log level in the following format: '${publisher}.${name}:${logLevel}'. For example: 'vscode.csharp:trace'. Can receive one or more such entries.
+#   -s --status
+#       Print process usage and diagnostics information.
+#   --prof-startup
+#       Run CPU profiler during startup.
+#   --disable-extensions
+#       Disable all installed extensions. This option is not persisted and is effective only when the command opens a new window.
+#   --disable-extension <ext-id>
+#       Disable the provided extension. This option is not persisted and is effective only when the command opens a new window.
+#   --sync <on | off>
+#       Turn sync on or off.
+#   --inspect-extensions <port>
+#       Allow debugging and profiling of extensions. Check the developer tools for the connection URI.
+#   --inspect-brk-extensions <port>
+#       Allow debugging and profiling of extensions with the extension host being paused after start. Check the developer tools for the connection URI.
+#   --disable-lcd-text
+#       Disable LCD font rendering.
+#   --disable-gpu
+#       Disable GPU hardware acceleration.
+#   --disable-chromium-sandbox
+#       Use this option only when there is requirement to launch the application as sudo user on Linux or when running as an elevated user in an applocker environment on Windows.
+#   --locate-shell-integration-path <shell>
+#       Print the path to a terminal shell integration script. Allowed values are 'bash', 'pwsh', 'zsh' or 'fish'.
+#   --telemetry
+#       Shows all telemetry events which VS code collects.
+#   --startup-experiment-group <control|maximizedChat|splitEmptyEditorChat|splitWelcomeChat>
+#       Override the startup experiment group.
+
+# Subcommands
+#   chat         Pass in a prompt to run in a chat session in the current
+#                working directory.
+#   serve-web    Run a server that displays the editor UI in browsers.
+#   tunnel       Make the current machine accessible from vscode.dev or other
+#                machines through a secure tunnel.
+```
+
+#### 2.6.2. IntelliSense
+
+#### 2.6.3. 代码导航
+
+#### 2.6.4. 玩转 Git
+
+#### 2.6.5. 打造自己的主题
+
+#### 2.6.6. 快速创建可复用的代码片段
+
+#### 2.6.7. Task，把重复的工作自动化
+
+#### 2.6.8. Multi-root Workspaces
+
+#### 2.6.9. 调试与运行
 
 ### 2.7. 🎯 第 7 章 插件
 
-- 7.1 插件市场
-- 7.2 插件管理
-- 7.3 那些不错的插件
+#### 2.7.1. 插件市场
+
+#### 2.7.2. 插件管理
+
+#### 2.7.3. 那些不错的插件
 
 ### 2.8. 🎯 第 8 章 语言深入
 
-- 8.1 概览
-- 8.2 Python
-- 8.3 JavaScript
-- 8.4 TypeScript
-- 8.5 Java
-- 8.6 C#
-- 8.7 C/C++
-- 8.8 Go
-- 8.9 更多语言支持
+#### 2.8.1. 概览
+
+#### 2.8.2. Python
+
+#### 2.8.3. JavaScript
+
+#### 2.8.4. TypeScript
+
+#### 2.8.5. Java
+
+#### 2.8.6. C#
+
+#### 2.8.7. C/C++
+
+#### 2.8.8. Go
+
+#### 2.8.9. 更多语言支持
 
 ### 2.9. 🎯 第 9 章 前端开发
 
-- 9.1 HTML
-- 9.2 CSS、SCSS 和 Less
-- 9.3 Emmet
-- 9.4 React
-- 9.5 Angular
-- 9.6 Vue
-- 9.7 前端插件推荐
+#### 2.9.1. HTML
+
+#### 2.9.2. CSS、SCSS 和 Less
+
+#### 2.9.3. Emmet
+
+#### 2.9.4. React
+
+#### 2.9.5. Angular
+
+#### 2.9.6. Vue
+
+#### 2.9.7. 前端插件推荐
 
 ### 2.10. 🎯 第 10 章 云计算开发
 
-- 10.1 微软 Azure
-- 10.2 AWS
-- 10.3 Google Cloud Platform
-- 10.4 阿里云
-- 10.5 腾讯云
+#### 2.10.1. 微软 Azure
+
+#### 2.10.2. AWS
+
+#### 2.10.3. Google Cloud Platform
+
+#### 2.10.4. 阿里云
+
+#### 2.10.5. 腾讯云
 
 ### 2.11. 🎯 第 11 章 物联网开发
 
-- 11.1 设备端开发
-- 11.2 设备上云
-- 11.3 设备模拟
-- 11.4 边缘计算
-- 11.5 物联网插件推荐
+#### 2.11.1. 设备端开发
+
+#### 2.11.2. 设备上云
+
+#### 2.11.3. 设备模拟
+
+#### 2.11.4. 边缘计算
+
+#### 2.11.5. 物联网插件推荐
 
 ### 2.12. 🎯 第 12 章 远程开发
 
-- 12.1 远程开发概览
-- 12.2 远程开发插件
-- 12.3 SSH
-- 12.4 容器
-- 12.5 WSL
+#### 2.12.1. 远程开发概览
+
+#### 2.12.2. 远程开发插件
+
+#### 2.12.3. SSH
+
+#### 2.12.4. 容器
+
+#### 2.12.5. WSL
 
 ### 2.13. 🎯 第 13 章 Visual Studio family
 
-- 13.1 Visual Studio、Visual Studio Code、Visual Studio Codespaces，你都分清楚了吗
-- 13.2 Visual Studio Codespaces
-- 13.3 Visual Studio Live Share
-- 13.4 Visual Studio IntelliCode
+#### 2.13.1. Visual Studio、Visual Studio Code、Visual Studio Codespaces，你都分清楚了吗
+
+#### 2.13.2. Visual Studio Codespaces
+
+#### 2.13.3. Visual Studio Live Share
+
+#### 2.13.4. Visual Studio IntelliCode
 
 ### 2.14. 🎯 第 14 章 成为 Visual Studio Code 的贡献者
 
-- 14.1 GitHub Issues
-- 14.2 提问
-- 14.3 讨论
-- 14.4 GitHub Pull requests
-- 14.5 插件
-- 14.6 翻译
+#### 2.14.1. GitHub Issues
+
+#### 2.14.2. 提问
+
+#### 2.14.3. 讨论
+
+#### 2.14.4. GitHub Pull requests
+
+#### 2.14.5. 插件
+
+#### 2.14.6. 翻译
 
 ### 2.15. 🎯 第 15 章 插件开发
 
-- 15.1 如何打造一款优秀的 Visual Studio Code 插件
-- 15.2 你的第一个 Visual Studio Code 插件
-- 15.3 Visual Studio Code 插件的扩展能力
-- 15.4 插件开发面面观
-- 15.5 插件开发的生命周期
+#### 2.15.1. 如何打造一款优秀的 Visual Studio Code 插件
+
+#### 2.15.2. 你的第一个 Visual Studio Code 插件
+
+#### 2.15.3. Visual Studio Code 插件的扩展能力
+
+#### 2.15.4. 插件开发面面观
+
+#### 2.15.5. 插件开发的生命周期
