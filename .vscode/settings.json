@@ -27,6 +27,7 @@
 
   // #region - Editor（编辑器相关配置）
 
+  "editor.codeLens": true,
   "editor.suggestOnTriggerCharacters": true,
   "editor.quickSuggestions": {
     "other": "on",

@@ -112,6 +112,7 @@
 - 内容主要来源：
   - 《Visual Studio Code 权威指南》
   - vscode 官方文档
+- 重点 👉 《Visual Studio Code 权威指南》第 5、6 章
 
 ## 2. 📒 《Visual Studio Code 权威指南》学习笔记大纲
 
@@ -688,6 +689,43 @@ code index.html style.css documentation/readme.md
   - 如果按住 Ctrl 键并将鼠标悬停在符号上，将显示该声明的预览。
   - 可通过 Ctrl+单击跳转到定义，或使用 Ctrl+Alt+单击在侧边打开定义。
 - Go to Type Definition 转到类型定义
+  - 某些语言还支持通过编辑器上下文菜单或命令面板运行"转到类型定义"命令来跳转到符号的类型定义处。这将带您前往符号类型的定义位置。
+- Go to Implementation 转到实现
+  - 语言还可以支持通过按 Ctrl+F12 跳转到符号的实现处。
+  - 对于接口，这将显示该接口的所有实现者；对于抽象方法，则会显示该方法的所有具体实现。
+- Go to Symbol 转到符号
+  - 可以使用 `Ctrl+Shift+O` 在文件中导航符号。
+  - 或者 `Ctrl+P` 输入 `@` 在当前文件中快速导航符号。
+- Open symbol by name 按名称打开符号
+  - 某些语言支持使用 `Ctrl+T` 跨文件跳转到符号。
+  - 输入要导航到的类型的首字母（无论包含该符号的文件是哪个），然后按 Enter 键。
+- Peek 窥视
+  - `Shift + F12`、`Alt + F12`
+  - 窥视功能可以很好地帮你解决这样一个问题 —— 当你只想快速查看某处上下文时，却要被迫进行大幅度的上下文切换操作时。
+  - 你可以在嵌入式预览编辑器中浏览不同引用位置，并直接进行快速编辑。点击预览编辑器的文件名或在结果列表中双击，将在外部编辑器中打开该引用。
+- Bracket matching 括号匹配
+  - 当光标靠近其中一个括号时，匹配的括号会立即高亮显示。
+  - 使用 `Ctrl+Shift+\` 可以跳转到匹配的括号。
+- Bracket Pair Colorization 括号对色彩标记
+  - 通过将 `editor.bracketPairColorization.enabled` 设置为 true ，还可以为匹配的括号对启用色彩标记功能。
+  - 所有颜色均可自定义主题，最多可配置六种颜色，可以使用 `workbench.colorCustomizations` 在设置中覆盖这些由主题提供的颜色
+
+```json
+"workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#FFD700",
+    "editorBracketHighlight.foreground2": "#DA70D6",
+    "editorBracketHighlight.foreground3": "#179fff",
+},
+```
+
+- Reference information 引用信息
+  - 某些语言（如 C#）支持实时更新的内联参考信息。这使您能够快速分析编辑产生的影响，或了解项目中特定方法或属性的使用频率：
+  - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-19-15-25-53.png)
+  - 直接点击这些标注即可调用"Peek References 查看引用"操作。
+  - 这些引用信息是否显示，可以通过配置 `editor.codeLens` 来控制。
+- Rename symbol 重命名符号
+  - 部分语言支持跨文件重命名符号。按下 `F2` 键后输入新名称并按 Enter 键，该符号在所有文件中的使用实例都将被重命名。
+- Errors & warnings 错误与警告
 
 #### 2.6.4. 玩转 Git
 
