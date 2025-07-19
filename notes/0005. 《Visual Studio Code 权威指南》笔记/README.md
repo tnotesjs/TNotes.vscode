@@ -526,9 +526,6 @@
 
 - 命令行帮助
   - `code --help` vscode 帮助命令，会打印 VS Code 的版本信息及各个命令的详细介绍。
-- 通过命令启动 VS Code
-  - `code .` 使用 VS Code 打开当前文件夹
-  - `code <file>` 使用 VS Code 打开指定文件
 
 ```bash
 code --help
@@ -647,6 +644,16 @@ code --help
 #   serve-web    Run a server that displays the editor UI in browsers.
 #   tunnel       Make the current machine accessible from vscode.dev or other
 #                machines through a secure tunnel.
+```
+
+- 通过命令启动 VS Code
+  - `code .` 使用 VS Code 打开当前文件夹
+  - `code <file>` 使用 VS Code 打开指定文件
+- Visual Studio Code Insiders 可以通过 `code-insiders .` 来启动
+- 示例：在一个空文件夹下执行下面的命令，会创建 `index.html`、`style.css`、`readme.md` 这 3 个文件，以及 `documentation` 文件夹，其中 `readme.md` 文件位于 `documentation` 文件夹下。
+
+```bash
+code index.html style.css documentation/readme.md
 ```
 
 #### 2.6.2. IntelliSense
