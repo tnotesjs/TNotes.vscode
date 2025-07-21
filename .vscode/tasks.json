@@ -1,0 +1,105 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "tn:new",
+      "type": "shell",
+      "command": "npm run tn:new",
+      "group": {
+        "kind": "build"
+      },
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:dev",
+      "type": "shell",
+      "command": "npm run tn:dev",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:update",
+      "type": "shell",
+      "command": "npm run tn:update",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:push",
+      "type": "shell",
+      "command": "npm run tn:push",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:pull",
+      "type": "shell",
+      "command": "npm run tn:pull",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:merge",
+      "type": "shell",
+      "command": "npm run tn:merge",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:distribute",
+      "type": "shell",
+      "command": "npm run tn:distribute",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:tempSync",
+      "type": "shell",
+      "command": "npm run tn:tempSync",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:pushAll",
+      "type": "shell",
+      "command": "npm run tn:pushAll",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:build",
+      "type": "shell",
+      "command": "npm run tn:build",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:preview",
+      "type": "shell",
+      "command": "npm run tn:preview",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:pullAll",
+      "type": "shell",
+      "command": "npm run tn:pullAll",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:sync",
+      "type": "shell",
+      "command": "npm run tn:sync",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "tn:syncAll",
+      "type": "shell",
+      "command": "npm run tn:syncAll",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
+    }
+  ]
+}
