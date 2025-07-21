@@ -156,7 +156,7 @@
   - [2. 🔍 查看快捷键大全](https://tdahuyou.github.io/TNotes.vscode/notes/0007.%20VS%20Code%20%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8/README#2--查看快捷键大全)
   - [3. 🔗 References](https://tdahuyou.github.io/TNotes.vscode/notes/0007.%20VS%20Code%20%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8/README#3--references)
 
-## 6. `code` 命令
+## 6. code 命令
 
 - [x] [0010. code 命令](https://tdahuyou.github.io/TNotes.vscode/notes/0010.%20code%20%E5%91%BD%E4%BB%A4/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0010.%20code%20%E5%91%BD%E4%BB%A4/README#1--概述)
@@ -167,7 +167,7 @@
     - [3.3. 插件相关选项](https://tdahuyou.github.io/TNotes.vscode/notes/0010.%20code%20%E5%91%BD%E4%BB%A4/README#33-插件相关选项)
   - [4. 💻 通过命令启动 VS Code 打开指定文件夹](https://tdahuyou.github.io/TNotes.vscode/notes/0010.%20code%20%E5%91%BD%E4%BB%A4/README#4--通过命令启动-vs-code-打开指定文件夹)
 
-## 7. `vscode://` 协议
+## 7. vscode:// 协议
 
 - [x] [0011. 通过 URLs 打开 VS Code](https://tdahuyou.github.io/TNotes.vscode/notes/0011.%20%E9%80%9A%E8%BF%87%20URLs%20%E6%89%93%E5%BC%80%20VS%20Code/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0011.%20%E9%80%9A%E8%BF%87%20URLs%20%E6%89%93%E5%BC%80%20VS%20Code/README#1--概述)
@@ -235,7 +235,6 @@
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README#1--概述)
   - [2. 📒 教程大纲](https://tdahuyou.github.io/TNotes.vscode/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README#2--教程大纲)
   - [3. 🔗 References](https://tdahuyou.github.io/TNotes.vscode/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README#3--references)
-
 - [ ] [0014. xxx](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20xxx/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20xxx/README#1--概述)
 - [ ] [0015. xxx](https://tdahuyou.github.io/TNotes.vscode/notes/0015.%20xxx/README)

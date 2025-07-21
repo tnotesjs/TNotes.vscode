@@ -8,8 +8,8 @@
   - [3. VS Code 核心组件](#3-vs-code-核心组件)
   - [4. VS Code 不同版本](#4-vs-code-不同版本)
   - [5. VS Code 快捷方式](#5-vs-code-快捷方式)
-  - [6. `code` 命令](#6-code-命令)
-  - [7. `vscode://` 协议](#7-vscode-协议)
+  - [6. code 命令](#6-code-命令)
+  - [7. vscode:// 协议](#7-vscode-协议)
   - [8. Peek](#8-peek)
   - [9. Others](#9-others)
   - [10. 🎯 en-words](#10--en-words)
@@ -171,7 +171,7 @@
   - [2. 🔍 查看快捷键大全](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0007.%20VS%20Code%20%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8/README.md#2--查看快捷键大全)
   - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0007.%20VS%20Code%20%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8/README.md#3--references)
 
-## 6. `code` 命令
+## 6. code 命令
 
 - [x] [0010. code 命令](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0010.%20code%20%E5%91%BD%E4%BB%A4/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0010.%20code%20%E5%91%BD%E4%BB%A4/README.md#1--概述)
@@ -182,7 +182,7 @@
     - [3.3. 插件相关选项](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0010.%20code%20%E5%91%BD%E4%BB%A4/README.md#33-插件相关选项)
   - [4. 💻 通过命令启动 VS Code 打开指定文件夹](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0010.%20code%20%E5%91%BD%E4%BB%A4/README.md#4--通过命令启动-vs-code-打开指定文件夹)
 
-## 7. `vscode://` 协议
+## 7. vscode:// 协议
 
 - [x] [0011. 通过 URLs 打开 VS Code](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0011.%20%E9%80%9A%E8%BF%87%20URLs%20%E6%89%93%E5%BC%80%20VS%20Code/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0011.%20%E9%80%9A%E8%BF%87%20URLs%20%E6%89%93%E5%BC%80%20VS%20Code/README.md#1--概述)
@@ -250,7 +250,6 @@
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README.md#1--概述)
   - [2. 📒 教程大纲](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README.md#2--教程大纲)
   - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README.md#3--references)
-
 - [ ] [0014. xxx](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0014.%20xxx/README.md)
   - [1. 📝 概述](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0014.%20xxx/README.md#1--概述)
 - [ ] [0015. xxx](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0015.%20xxx/README.md)
