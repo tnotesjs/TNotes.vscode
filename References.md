@@ -1,0 +1,4 @@
+- https://weread.qq.com/web/reader/7bc32db071f02f257bc2a8a
+  - 微信读书《Visual Studio Code 权威指南》
+- https://code.visualstudio.com/
+  - vscode 官网
