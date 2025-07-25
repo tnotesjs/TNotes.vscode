@@ -811,6 +811,24 @@ code index.html style.css documentation/readme.md
 - https://code.visualstudio.com/docs/debugtest/tasks
 - `.vscode/tasks.json`
 - VS Code 当前可自动检测以下系统的任务：Gulp、Grunt、Jake 和 npm。
+- 打印 `hello word` 示例
+
+::: code-group
+
+```json [tasks.json]
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "打印 hello world",
+      "type": "shell",
+      "command": "echo hello world"
+    }
+  ]
+}
+```
+
+:::
 
 ### 6.8. Multi-root Workspaces
 

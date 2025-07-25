@@ -176,14 +176,29 @@
   - [4. 💻 通过浏览器快速打开 VS Code](https://tdahuyou.github.io/TNotes.vscode/notes/0011.%20%E9%80%9A%E8%BF%87%20URLs%20%E6%89%93%E5%BC%80%20VS%20Code/README#4--通过浏览器快速打开-vs-code)
   - [5. 🔗 References](https://tdahuyou.github.io/TNotes.vscode/notes/0011.%20%E9%80%9A%E8%BF%87%20URLs%20%E6%89%93%E5%BC%80%20VS%20Code/README#5--references)
 
-## 8. Peek
+## 8. Tasks
+
+- [x] [0015. Tasks Schema](https://tdahuyou.github.io/TNotes.vscode/notes/0015.%20Tasks%20Schema/README)
+  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0015.%20Tasks%20Schema/README#1--概述)
+  - [2. 🤔 如何查看 tasks 配置字段都有哪些？](https://tdahuyou.github.io/TNotes.vscode/notes/0015.%20Tasks%20Schema/README#2--如何查看-tasks-配置字段都有哪些)
+  - [3. ⚙️ Schema for tasks.json](https://tdahuyou.github.io/TNotes.vscode/notes/0015.%20Tasks%20Schema/README#3-️-schema-for-tasksjson)
+  - [4. 🔗 References](https://tdahuyou.github.io/TNotes.vscode/notes/0015.%20Tasks%20Schema/README#4--references)
+- [ ] [0014. problemMatcher 问题适配器](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20problemMatcher%20%E9%97%AE%E9%A2%98%E9%80%82%E9%85%8D%E5%99%A8/README)
+  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20problemMatcher%20%E9%97%AE%E9%A2%98%E9%80%82%E9%85%8D%E5%99%A8/README#1--概述)
+  - [2. 📒 problemMatcher](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20problemMatcher%20%E9%97%AE%E9%A2%98%E9%80%82%E9%85%8D%E5%99%A8/README#2--problemmatcher)
+  - [3. 📒 预定义的问题匹配器](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20problemMatcher%20%E9%97%AE%E9%A2%98%E9%80%82%E9%85%8D%E5%99%A8/README#3--预定义的问题匹配器)
+  - [4. 💻 `"problemMatcher": []`](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20problemMatcher%20%E9%97%AE%E9%A2%98%E9%80%82%E9%85%8D%E5%99%A8/README#4--problemmatcher-)
+  - [5. 💻 `"problemMatcher": ["$tsc"]`](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20problemMatcher%20%E9%97%AE%E9%A2%98%E9%80%82%E9%85%8D%E5%99%A8/README#5--problemmatcher-tsc)
+  - [6. 🔗 References](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20problemMatcher%20%E9%97%AE%E9%A2%98%E9%80%82%E9%85%8D%E5%99%A8/README#6--references)
+
+## 9. Peek
 
 - [x] [0012. Peek 窥视](https://tdahuyou.github.io/TNotes.vscode/notes/0012.%20Peek%20%E7%AA%A5%E8%A7%86/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0012.%20Peek%20%E7%AA%A5%E8%A7%86/README#1--概述)
   - [2. 📒 Peek 窥视](https://tdahuyou.github.io/TNotes.vscode/notes/0012.%20Peek%20%E7%AA%A5%E8%A7%86/README#2--peek-窥视)
   - [3. 💻 demos.1 - 体验 Peek 的使用](https://tdahuyou.github.io/TNotes.vscode/notes/0012.%20Peek%20%E7%AA%A5%E8%A7%86/README#3--demos1---体验-peek-的使用)
 
-## 9. Others
+## 10. Others
 
 - [x] [0031. explorer.confirmDelete](https://tdahuyou.github.io/TNotes.vscode/notes/0031.%20explorer.confirmDelete/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0031.%20explorer.confirmDelete/README#1--概述)
@@ -235,10 +250,6 @@
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README#1--概述)
   - [2. 📒 教程大纲](https://tdahuyou.github.io/TNotes.vscode/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README#2--教程大纲)
   - [3. 🔗 References](https://tdahuyou.github.io/TNotes.vscode/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README#3--references)
-- [ ] [0014. xxx](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20xxx/README)
-  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0014.%20xxx/README#1--概述)
-- [ ] [0015. xxx](https://tdahuyou.github.io/TNotes.vscode/notes/0015.%20xxx/README)
-  - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0015.%20xxx/README#1--概述)
 - [ ] [0016. xxx](https://tdahuyou.github.io/TNotes.vscode/notes/0016.%20xxx/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0016.%20xxx/README#1--概述)
 - [ ] [0017. xxx](https://tdahuyou.github.io/TNotes.vscode/notes/0017.%20xxx/README)
@@ -248,7 +259,7 @@
 - [ ] [0019. xxx](https://tdahuyou.github.io/TNotes.vscode/notes/0019.%20xxx/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0019.%20xxx/README#1--概述)
 
-## 10. 🎯 en-words
+## 11. 🎯 en-words
 
 - [ ] [0020. xxx](https://tdahuyou.github.io/TNotes.vscode/notes/0020.%20xxx/README)
   - [1. 📝 概述](https://tdahuyou.github.io/TNotes.vscode/notes/0020.%20xxx/README#1--概述)
