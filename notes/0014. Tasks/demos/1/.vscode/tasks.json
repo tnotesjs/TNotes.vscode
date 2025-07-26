@@ -1,0 +1,96 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "GCC Build with Matcher",
+      "detail": "gcc 编译 - 自定义 matcher",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-Wall",
+        "-Wextra", // 启用所有警告
+        "-o",
+        "output",
+        "src/main.c"
+      ],
+      "problemMatcher": {
+        // 标识问题来源，问题的所有者（通常是语言）如 "typescript"、"cpp"
+        "owner": "cpp",
+
+        // 如何解析文件路径，常用 ["relative", "${workspaceFolder}"] 表示相对工作区根目录
+        "fileLocation": ["relative", "${workspaceFolder}"],
+
+        // 手写正则完成匹配
+        "pattern": {
+          "regexp": "^(.*):(\\d+):(\\d+):\\s+(warning|error):\\s+(.*)$",
+          // file、line 和 message 属性是必需的
+          "file": 1, // 数字表示捕获组，1 表示文件名 file 是第一个捕获组的信息。
+          "line": 2,
+          "column": 3,
+          // severity 用于表示问题的严重性，可能值为 error、warning 或 info。
+          "severity": 4,
+          "message": 5
+        }
+      },
+      "group": "build",
+      // presentation 配置用于显示任务输出并读取其输入的面板。
+      "presentation": {
+        // reveal 控制运行任务的终端是否显示，默认为 always，表示任务运行时，会自动切到终端面板。
+        "reveal": "silent",
+        // never 表示不要在此任务执行时显示终端。
+        // silent 表示只有当任务因错误而退出或者问题匹配器发现错误时，才会显示终端。
+
+        // panel 控制终端实例是否在任务运行之间共享。
+        "panel": "dedicated",
+        // 同一个任务使用相同面板还是每次运行时新创建一个面板。
+        // shared - 终端是共享的，其他任务运行的输出会添加到同一个终端中。
+        // dedicated - 该终端专用于特定任务。如果该任务再次执行，则重用该终端。然而，不同任务的输出会显示在不同的终端中。
+        // new - 每次执行该任务时都会使用一个新的干净终端。
+
+        // clear 控制在运行此任务之前是否清除终端。默认值为 false 。
+        "clear": true
+      }
+    },
+    {
+      "label": "GCC Build without Matcher",
+      "detail": "gcc 编译 - 不使用 matcher",
+      "type": "shell",
+      "command": "gcc",
+      "args": ["-Wall", "-Wextra", "-o", "output", "src/main.c"],
+      "problemMatcher": [], // 无匹配器
+      "group": "build"
+    },
+    // 注意：需要事先安装 Microsoft 的 C/C++ 插件
+    // marketplace：https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools
+    // github：https://github.com/microsoft/vscode-cpptools
+    {
+      "label": "GCC Build with $gcc Matcher",
+      "detail": "gcc 编译 - 使用 Microsoft 的 C/C++ 插件注入的 matcher $gcc",
+      "type": "shell",
+      "command": "gcc",
+      "args": ["-Wall", "-Wextra", "-o", "output", "src/main.c"],
+      "problemMatcher": "$gcc"
+    }
+    // 这里的 $gcc 是由该插件注入的。
+    // 源码位置：
+    // 在 Extension/package.json 中，插件定义了一个名为 gcc 的 problemMatcher
+    // https://github.com/microsoft/vscode-cpptools/blob/97ef1aa99d1bf7128f121d748e2550df455662f3/Extension/package.json#L433C1-L450C15
+    // {
+    //     "name": "gcc",
+    //     "source": "gcc",
+    //     "owner": "cpptools",
+    //     "fileLocation": [
+    //         "autoDetect",
+    //         "${cwd}"
+    //     ],
+    //     "pattern": {
+    //         "regexp": "^(.*?):(\\d+):(\\d*):?\\s+(?:fatal\\s+)?(warning|error):\\s+(.*)$",
+    //         "file": 1,
+    //         "line": 2,
+    //         "column": 3,
+    //         "severity": 4,
+    //         "message": 5
+    //     }
+    // },
+  ]
+}

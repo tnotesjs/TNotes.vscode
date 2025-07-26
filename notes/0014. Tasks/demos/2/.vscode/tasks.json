@@ -1,0 +1,32 @@
+{
+  // 任务配置版本号，必须为 2.0.0
+  "version": "2.0.0",
+  // 任务列表数组
+  "tasks": [
+    {
+      // 任务的标签名称，在任务运行时显示
+      "label": "echo hello world",
+      // 描述，会在命令选择时展示，相当于是这个命令的详情描述。
+      "detail": "测试任务 - 输出一个 hello world",
+      // 任务类型，shell 表示在终端中执行 shell 命令
+      "type": "shell",
+      // 要执行的命令
+      "command": "echo",
+      // 传递给命令的参数列表
+      "args": ["hello world"],
+      // 任务所属的组，build 表示这是一个构建任务
+      "group": "build",
+      // 任务执行时的显示选项
+      "presentation": {
+        // 是否将执行的命令回显到输出
+        "echo": true,
+        // 何时显示输出面板，always 表示总是显示
+        "reveal": "always",
+        // 执行任务时是否聚焦到输出面板
+        "focus": false,
+        // 使用共享面板显示输出
+        "panel": "shared"
+      }
+    }
+  ]
+}

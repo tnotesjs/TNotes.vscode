@@ -3,6 +3,7 @@
   "tasks": [
     {
       "label": "tn:new",
+      "detail": "新建一篇笔记",
       "type": "shell",
       "command": "npm run tn:new",
       "group": {
@@ -12,6 +13,7 @@
     },
     {
       "label": "tn:dev",
+      "detail": "启动知识库开发环境",
       "type": "shell",
       "command": "npm run tn:dev",
       "group": "build",
@@ -19,6 +21,7 @@
     },
     {
       "label": "tn:update",
+      "detail": "根据笔记内容更新知识库",
       "type": "shell",
       "command": "npm run tn:update",
       "group": "build",
@@ -26,6 +29,7 @@
     },
     {
       "label": "tn:push",
+      "detail": "将知识库推送到 github",
       "type": "shell",
       "command": "npm run tn:push",
       "group": "build",
@@ -33,6 +37,7 @@
     },
     {
       "label": "tn:pull",
+      "detail": "将 github 的知识库拉下来",
       "type": "shell",
       "command": "npm run tn:pull",
       "group": "build",
@@ -40,6 +45,7 @@
     },
     {
       "label": "tn:merge",
+      "detail": "合并知识库中的所有笔记到一个文件 MERGED_README.md 中（所有笔记数据汇总到一个文件中进行批量编辑，常用于快速统一所有笔记格式等需要批量操作多篇笔记的场景）",
       "type": "shell",
       "command": "npm run tn:merge",
       "group": "build",
@@ -47,6 +53,7 @@
     },
     {
       "label": "tn:distribute",
+      "detail": "分发 MERGED_README.md 文件中的内容到各笔记中（配合 tn:merge 使用）",
       "type": "shell",
       "command": "npm run tn:distribute",
       "group": "build",
@@ -54,6 +61,7 @@
     },
     {
       "label": "tn:tempSync",
+      "detail": "同步知识库脚本到其它 TNotes.xxx 知识库中",
       "type": "shell",
       "command": "npm run tn:tempSync",
       "group": "build",
@@ -61,6 +69,7 @@
     },
     {
       "label": "tn:pushAll",
+      "detail": "推送所有 TNotes.xxx 知识库到 GitHub",
       "type": "shell",
       "command": "npm run tn:pushAll",
       "group": "build",
@@ -68,6 +77,7 @@
     },
     {
       "label": "tn:build",
+      "detail": "构建知识库",
       "type": "shell",
       "command": "npm run tn:build",
       "group": "build",
@@ -75,6 +85,7 @@
     },
     {
       "label": "tn:preview",
+      "detail": "预览构建后的知识库",
       "type": "shell",
       "command": "npm run tn:preview",
       "group": "build",
@@ -82,6 +93,7 @@
     },
     {
       "label": "tn:pullAll",
+      "detail": "拉取所有 TNotes.xxx 知识库，确保本地的仓库是最新的",
       "type": "shell",
       "command": "npm run tn:pullAll",
       "group": "build",
@@ -89,6 +101,7 @@
     },
     {
       "label": "tn:sync",
+      "detail": "同步本地和远程的知识库状态",
       "type": "shell",
       "command": "npm run tn:sync",
       "group": "build",
@@ -96,16 +109,11 @@
     },
     {
       "label": "tn:syncAll",
+      "detail": "同步所有知识库",
       "type": "shell",
       "command": "npm run tn:syncAll",
       "group": "build",
       "problemMatcher": ["$tsc"]
-    },
-    {
-      "label": "打印 hello world",
-      "type": "shell",
-      "command": "echo hello world",
-      "problemMatcher": []
     }
   ]
 }

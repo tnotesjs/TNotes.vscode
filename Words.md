@@ -4,4 +4,5 @@
     'match',
     'problem',
     'shell',
+    'schema',
 ]" />
