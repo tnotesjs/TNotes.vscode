@@ -16,7 +16,8 @@
 - [12. 💻 demos.2 - 实现一个简单的 echo hello world 任务](#12--demos2---实现一个简单的-echo-hello-world-任务)
 - [13. 💻 demos.3 - 开发流程自动化 - `…… -> Lint -> Compile -> Bundle -> ……`](#13--demos3---开发流程自动化------lint---compile---bundle---)
 - [14. 💻 demos.1 - 实现一个简单的 gcc 编译任务](#14--demos1---实现一个简单的-gcc-编译任务)
-- [15. 🔗 References](#15--references)
+- [15. 💻 demos.4 - 后台运行的监听任务](#15--demos4---后台运行的监听任务)
+- [16. 🔗 References](#16--references)
 
 <!-- endregion:toc -->
 
@@ -559,7 +560,22 @@ src/main.c:11:11: error: incompatible integer to pointer conversion initializing
 
 :::
 
-## 15. 🔗 References
+## 15. 💻 demos.4 - 后台运行的监听任务
+
+::: code-group
+
+<<< ./demos/4/.vscode/tasks.json [.vscode/tasks.json]
+
+<<< ./demos/4/src/1.ts [src/1.ts]
+
+<<< ./demos/4/tsconfig.json [tsconfig.json]
+
+:::
+
+- 启动 watch 任务之后，它会在后台持续运行，一旦 `src/1.ts` 文件内容发生变化，就会自动执行 `tsc` 完成编译工作，重新生成 `dist/1.js` 文件。
+- ![图 6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-27-01-29-00.png)
+
+## 16. 🔗 References
 
 - https://code.visualstudio.com/docs/debugtest/tasks
   - VSCode tasks
