@@ -815,7 +815,7 @@ code index.html style.css documentation/readme.md
 
 ::: code-group
 
-```json [tasks.json]
+```json [.vscode/tasks.json]
 {
   "version": "2.0.0",
   "tasks": [
@@ -831,6 +831,28 @@ code index.html style.css documentation/readme.md
 :::
 
 ### 6.8. Multi-root Workspaces
+
+- https://code.visualstudio.com/docs/editing/workspaces/workspaces
+  - 介绍工作区 workspace 是什么
+- https://code.visualstudio.com/docs/editing/workspaces/multi-root-workspaces
+  - 介绍 multi-root workspaces 是什么
+- VS Code 中的工作区能实现：
+  - 配置仅适用于特定文件夹（而非其他文件夹）的设置。
+  - 持久化仅在该工作区上下文中有效的任务和调试器启动配置。
+  - 存储并恢复与该工作区相关的用户界面状态（例如已打开的文件）。
+  - 仅针对该工作区选择性启用或禁用扩展。
+- single-folder workspaces
+  - 使用 VS Code 打开的文件夹，就是一个单一的工作区。
+- multi-root workspaces
+  - 多根工作区是 VS Code 的一项高级功能，它允许你将多个不同的文件夹配置为同一工作区的组成部分。
+- 🤔 相比单一文件夹，多根工作区有何优势？
+  - 最显著的优势在于，多根工作区允许您处理多个可能未存储在磁盘同一父目录下的项目。您可以从任意位置选择文件夹添加到工作区。
+  - 对于这一点，也可以将磁盘上的文件夹合并到一个位置，然后使用 single-folder workspace 的形式来打开。
+- 🤔 multi-root workspace 在实际开发中使用多吗？
+  - 知道有这概念，不过几乎没用过。
+  - 看了看官方文档，里面提到：
+    - 即使您主要处理基于单文件夹的项目，使用 .code-workspace 文件仍能带来益处。您可以在文件夹内存储多个 .code-workspace 文件，根据场景需求提供项目的特定范围文件夹视图（例如 client.code-workspace、server.code-workspace 可从文件资源管理器中过滤无关文件夹）。由于 .code-workspace 文件支持 folders 部分的相对路径，这些工作区文件适用于所有用户，不受文件夹存储位置的影响。
+    - 👆 这大概意思是可以将一个项目中的同一类型的任务丢到一个 workspace 中去单独管理，这样在处理指定问题的时候，只需要打开这个 workspace，然后重点关注这一个 workspace 中的模块即可，而且这个 workspace 中的设置啥的，可以独立配置。
 
 ### 6.9. 调试与运行
 
