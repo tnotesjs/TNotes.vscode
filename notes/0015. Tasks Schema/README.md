@@ -20,7 +20,7 @@
   - https://code.visualstudio.com/docs/reference/tasks-appendix
 - 【方式 2】直接借助 VSCode 智能提示
   - 新建一个 `.vscode/tasks.json` 任务配置文件，输入 `""` 时会弹出智能提示面板。
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-24-20-37-39.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-24-20-37-39.png)
   - 提示面板中一共有 31 个选项，也就是 31 个字段，通过键盘上下键切换到对应项之后会在侧边展示该项的描述信息。
 
 ## 3. ⚙️ Schema for tasks.json

@@ -15,10 +15,10 @@
 ## 2. 🔍 查看快捷键大全
 
 - 命令：`Help: Keyboard Shortcuts Reference`
-- ![图 10](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-32-33.png)
+- ![图 10](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-21-32-33.png)
 - 这会打开一个在线的 pdf 文件，里面有所有快捷键的大全。
 - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
-- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-56-34.png)
+- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-21-56-34.png)
 
 ## 3. 🔗 References
 

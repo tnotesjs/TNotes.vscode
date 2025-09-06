@@ -163,7 +163,7 @@
   - vscode < vim、sublime
 - 丰富的插件库
   - https://marketplace.visualstudio.com/vscode
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-13-22-56-34.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-13-22-56-34.png)
 - 强大的生态
   - Visual Studio Code 把它的许多重要组件抽离出来，使其成为大家都可以复用的开源产品，并与社区合作，把产品越做越好。
   - Language Server Protocol(LSP)
@@ -207,7 +207,7 @@
 - 语言服务器(Language Server)提供了诸如自动补全、定义跳转、代码格式化等与编程语言相关的功能。
 - Language Server Protocol(LSP)是编辑器/IDE 与语言服务器之间的一种协议，通过 JSON-RPC 传输消息，可以让不同的编辑器/IDE 方便嵌入各种编程语言，使得开发人员能在最喜爱的工具中使用各种语言来编写程序。
 - LSP 最初只是为 Visual Studio Code 而开发的。到了 2016 年 6 月 27 日，微软宣布与 Red Hat 和 Codenvy 一起合作，标准化了 Language Server Protocol 的规范。如今，众多主流语言都已经有了相应的 Language Server，许多编辑器/IDE 也都支持了 LSP，包括 Visual Studio Code、Visual Studio、Eclipse IDE、Eclipse Che、Eclipse Theia、Atom、Sublime Text、Emacs、Qt Creator 等。
-- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-14-20-04-32.png)
+- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-04-32.png)
 
 ### 3.5. Debug Adapter Protocol
 
@@ -219,11 +219,11 @@
   - 这样就可以轻松支持多种语言和调试器。
 - 对比 DAP 之前和之后
   - 之前：
-  - ![图 3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-14-20-17-37.png)
+  - ![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-17-37.png)
   - 之后：
-  - ![图 4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-14-20-18-01.png)
+  - ![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-18-01.png)
 - 示例：`.vscode/launch.json`
-  - ![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-14-20-13-27.png)
+  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-13-27.png)
   - `"type"` 表示使用哪种 Debug Adapter。
   - VS Code 会根据这个类型启动相应的适配器并与之通信。
 - 工作原理（在 VS Code 中）
@@ -290,10 +290,10 @@
   - 图形化配置界面 - 可视化交互更有好
 - 通过配置文件来配置：
   - 可以通过 ctrl shift p 搜索 `Preferences: Open User Settings` 快速打开用户设置文件
-  - ![图 6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-14-20-32-03.png)
+  - ![图 6](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-32-03.png)
 - 图形化配置界面：
   - 可以通过 `cmd ,`（macos）、`ctrl ,`（Windows）快速打开设置页面
-  - ![图 5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-14-20-27-05.png)
+  - ![图 5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-27-05.png)
 
 ### 5.3. 用户界面
 
@@ -315,7 +315,7 @@
     - `Ctrl+G`：跳转到文件中的某一行。
 - 并排编辑
   - 通过菜单：
-    - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-15-20-34-33.png)
+    - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-15-20-34-33.png)
   - 通过快捷方式：
     - 按住 Alt 快捷键，同时单击资源管理器的文件。
     - 通过 Ctrl+\ 快捷键来把当前编辑器分为两个。
@@ -363,7 +363,7 @@
     - 默认情况下，Visual Studio Code 会在文件资源管理器中隐藏一些文件夹（如.git 文件夹）​。
     - 可以通过 `files.exclude` 来配置要被隐藏的文件和文件夹。
     - glob 模式：https://code.visualstudio.com/docs/editor/glob-patterns
-    - ![图 3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-15-23-45-39.png)
+    - ![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-15-23-45-39.png)
   - 多选：
     - 在文件资源管理器中，你可以同时选中多个文件进行操作。
     - 按住 Ctrl 快捷键（在 macOS 上是 Cmd 快捷键）​，可以再次选择单个文件。
@@ -373,10 +373,10 @@
   - 搜索过滤：
     - 您可以在资源管理器视图中筛选文件和文件夹。
     - 聚焦资源管理器视图时，按下 ⌥⌘F 打开查找控件，输入目标文件/文件夹名称的部分字符即可匹配。
-    - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-15-23-18-14.png)
+    - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-15-23-18-14.png)
   - 大纲视图：
     - 大纲视图是资源管理器视图底部的一个独立区域。展开后，它会显示当前活动编辑器的符号树状结构。
-    - ![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-15-23-24-04.png)
+    - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-15-23-24-04.png)
     - 支持搜索：`⌥⌘F`
     - 配置：`outline.xxx`
     - 可配置大纲视图中各种符号信息是否显示。
@@ -451,14 +451,14 @@
 
 - 颜色主题
   - 打开主题选择器：命令面板输入命令 `Preferences: Color Theme`
-  - ![图 5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-20-24.png)
-  - ![图 6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-21-29.png)
+  - ![图 5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-21-20-24.png)
+  - ![图 6](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-21-21-29.png)
   - 可以使用方向键上下移动，选择不同的颜色主题进行预览。在确定使用的主题之后，按下 Enter 键即可完成选择。
 - 图标主题
   - `Preferences: File Icon Theme`
-  - ![图 7](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-23-46.png)
+  - ![图 7](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-21-23-46.png)
   - 相关插件：`Material Icon Theme`、`vscode-icons`
-  - ![图 8](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-26-08.png)
+  - ![图 8](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-21-26-08.png)
   - 可以在插件面板中搜索关键字，比如 `icon theme`，然后根据安装量来排序，排在最前面的两个目前 `25.07` 是 `Material Icon Theme`、`vscode-icons` 这两个。
 
 ### 5.6. 快捷键
@@ -477,16 +477,16 @@
     - 修改快捷键的作用条件 `when`
     - 直接编辑快捷键配置的 JSON 文件 `keybindings.json`
     - ……
-  - ![图 9](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-30-15.png)
+  - ![图 9](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-21-30-15.png)
 - 查看快捷键大全：
   - 命令：`Help: Keyboard Shortcuts Reference`
   - 快捷键：`Ctrl+K Ctrl+R`
-  - ![图 10](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-32-33.png)
+  - ![图 10](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-21-32-33.png)
   - 这会打开一个在线的 pdf 文件，里面有所有快捷键的大全。
   - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
 - 键盘映射插件
   - 如果你是从 Vim、Sublime、IntelliJ、Atom、Eclipse、Visual Studio 或其他编辑器/IDE 转投到 Visual Studio Code 的，也许你依旧习惯使用原来开发工具的键盘快捷键。Visual Studio Code 对于主流的开发工具提供了各种键盘映射的插件，让你可以在 Visual Studio Code 中继续使用原来的开发工具的快捷键，而不用重新学习 Visual Studio Code 的快捷键。
-  - ![图 11](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-21-37-18.png)
+  - ![图 11](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-21-37-18.png)
 
 ### 5.7. 集成终端
 
@@ -503,11 +503,11 @@
 ### 5.8. 中文显示
 
 - 安装一个 vscode 官方插件：Chinese (Simplified) (简体中文) Language Pack for Visual Studio Code
-- ![图 12](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-22-10-00.png)
+- ![图 12](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-22-10-00.png)
 - 配置显示的语言：`Change Language Mode`
-- ![图 13](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-22-12-02.png)
+- ![图 13](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-22-12-02.png)
 - 有很多语言包可供选择
-- ![图 14](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-17-22-13-13.png)
+- ![图 14](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-22-13-13.png)
 - 切换语言之后，会提示重启 vscode。
 
 ## 6. 🎯 第 6 章 进阶应用
@@ -653,7 +653,7 @@ code index.html style.css documentation/readme.md
 - Visual Studio Code 的 IntelliSense 功能由语言服务(Language Server)驱动。
 - 当你在输入代码时，如果语言服务能推算出潜在的代码补全，那么就会显示 IntelliSense 的代码补全提示。按下 Tab 键或 Enter 键就可以插入所选择的补全选项。
 - Visual Studio Code 为 JavaScript、TypeScript、JSON、HTML、CSS、SCSS 和 Less 提供了开箱即用的 IntelliSense 功能。VS Code 支持所有编程语言的基于单词的自动补全，但也可以通过安装语言扩展来配置更丰富的 IntelliSense 功能。以下是 Visual Studio Marketplace 中最受欢迎的语言扩展。
-- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-19-13-23-39.png)
+- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-19-13-23-39.png)
 
 ### 6.3. Code Navigation 代码导航
 
@@ -695,7 +695,7 @@ code index.html style.css documentation/readme.md
 - 查找所有引用信息
   - 通过 `Shift+Alt+F12` 快捷键或编辑区域右键菜单中的 `Find All References`，你可以查看一个符号的所有引用。
   - VS Code 提供了一个独立的引用面板来展示这些信息。
-  - ![图 16](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-20-02-36-17.png)
+  - ![图 16](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-20-02-36-17.png)
 - Bracket matching 括号匹配
   - 当光标靠近其中一个括号时，匹配的括号会立即高亮显示。
   - 使用 `Ctrl+Shift+\` 可以跳转到匹配的括号。
@@ -713,7 +713,7 @@ code index.html style.css documentation/readme.md
 
 - Reference information 引用信息
   - 某些语言（如 C#）支持实时更新的内联参考信息。这使您能够快速分析编辑产生的影响，或了解项目中特定方法或属性的使用频率：
-  - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-19-15-25-53.png)
+  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-19-15-25-53.png)
   - 直接点击这些标注即可调用"Peek References 查看引用"操作。
   - 这些引用信息是否显示，可以通过配置 `editor.codeLens` 来控制。
 - Rename symbol 重命名符号
@@ -734,7 +734,7 @@ code index.html style.css documentation/readme.md
 - Outgoing link protection 外链安全保护
   - 为保障您的安全，VS Code 在打开编辑器中的外部网站链接前会显示提示。
   - 命令面板：`Manage Trusted Domains`，配置信任的域。
-  - ![图 15](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-20-02-08-30.png)
+  - ![图 15](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-20-02-08-30.png)
 
 ### 6.4. 玩转 Git
 
@@ -804,7 +804,7 @@ code index.html style.css documentation/readme.md
 
 :::
 
-- ![图 17](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-20-03-09-07.png)
+- ![图 17](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-20-03-09-07.png)
 
 ### 6.7. Task，把重复的工作自动化
 

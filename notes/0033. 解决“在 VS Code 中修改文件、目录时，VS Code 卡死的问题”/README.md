@@ -15,11 +15,11 @@
 ## 2. 📒 文件重命名卡死的解决方案 - 将 Files Participants Timeout 配置为 0 即可
 
 - 解决 vscode 重命名之后卡顿，提示正在运行“文件重命名“参与者。
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-01-17-13-49-44.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-01-17-13-49-44.png)
 
 ## 3. 📒 目录重命名卡死的解决方案 - Unlock with File Locksmith
 
 - 可以借助一个开源工具 [PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/) 的 File Locksmith 来释放文件的锁。
   - 安装好 PowerToys 之后，将 File Locksmith 启用即可。
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-01-17-13-56-22.png)
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-01-17-13-54-12.png)
+  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-01-17-13-56-22.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-01-17-13-54-12.png)

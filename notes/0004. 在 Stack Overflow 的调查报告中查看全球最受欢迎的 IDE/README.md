@@ -29,7 +29,7 @@
 - https://survey.stackoverflow.co/2024/technology
   - stackoverflow -> 查阅最受欢迎的 IDE 排名
   - 你可以在 stack overflow 上查看最新的排名信息，除了 IDE 的排名之外，这里边儿还有很多排名，比如最受欢迎的编程语言、最流行的数据库、AI 工具等等……
-  - ![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-13-16-45-42.png)
+  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-13-16-45-42.png)
 - https://survey.stackoverflow.co/2024/
   - 可以在“Developer Profile 开发者画像”中查看报告的提交者的所在地区，占比最多的是美国（18.9%），中国占比（0.7%）
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-13-17-17-08.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-13-17-17-08.png)

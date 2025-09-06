@@ -93,7 +93,7 @@
 | runOptions | 定义任务的运行时间和方式。 |
 | hide | 将任务从"运行任务快速选择"中隐藏，这对于复合任务中不独立运行的部分非常有用。 |
 
-- ![图 5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-27-00-31-27.png)
+- ![图 5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-00-31-27.png)
 
 ## 5. 📒 Tasks 自动检测
 
@@ -370,9 +370,9 @@
 
 :::
 
-- ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-27-00-02-32.png)
+- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-00-02-32.png)
 - 任务执行后，终端输出的内容如下：
-- ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-27-00-03-36.png)
+- ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-00-03-36.png)
 
 ## 13. 💻 demos.3 - 开发流程自动化 - `…… -> Lint -> Compile -> Bundle -> ……`
 
@@ -513,11 +513,11 @@ graph LR
 :::
 
 - 运行 node-3 任务
-  - ![图 4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-27-00-21-24.png)
+  - ![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-00-21-24.png)
 - 正常运行，无报错的情况：2.js 不抛出错误
-  - ![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-27-00-20-41.png)
+  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-00-20-41.png)
 - 异常运行，有报错的情况：2.js 抛出错误
-  - ![图 3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-27-00-20-48.png)
+  - ![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-00-20-48.png)
 
 ## 14. 💻 demos.1 - 实现一个简单的 gcc 编译任务
 
@@ -532,7 +532,7 @@ graph LR
 - 测试流程：
   - 在命令面板中输入 `run task` 运行任务
   - 分别选择不同的任务运行
-    - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-26-16-13-44.png)
+    - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-26-16-13-44.png)
   - 对比问题面板中生成的最终结果
 - 手写 matcher 的流程：
   - 在终端直接执行命令，可以刻意制造一些错误，以获取到错误的输出字符串示例。
@@ -550,7 +550,7 @@ src/main.c:11:11: error: incompatible integer to pointer conversion initializing
 ```
 
 - 书写正则，可以借助官方推荐的在线工具 regex101 -> https://regex101.com/
-- ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-26-16-32-49.png)
+- ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-26-16-32-49.png)
 
 ::: warning 🤔 为什么不用 `xxx.ts` 示例而使用 `xxx.c`？
 
@@ -573,7 +573,7 @@ src/main.c:11:11: error: incompatible integer to pointer conversion initializing
 :::
 
 - 启动 watch 任务之后，它会在后台持续运行，一旦 `src/1.ts` 文件内容发生变化，就会自动执行 `tsc` 完成编译工作，重新生成 `dist/1.js` 文件。
-- ![图 6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-27-01-29-00.png)
+- ![图 6](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-01-29-00.png)
 
 ## 16. 🔗 References
 

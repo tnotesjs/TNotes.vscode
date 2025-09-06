@@ -346,7 +346,7 @@
 :::
 
 - 🤔 workbench 工作台是哪一块区域？
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-29-08-10-34.png)
+  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-29-08-10-34.png)
 - `workbench.list.smoothScrolling`
   - 控制列表和树是否具有平滑滚动效果。
 - `workbench.tree.indent`
@@ -561,7 +561,7 @@
 
 :::
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-03-30-22-49-06.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-03-30-22-49-06.png)
 
 ## 9. ⚙️ Others（其他内置配置）
 

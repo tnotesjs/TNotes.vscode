@@ -131,7 +131,7 @@
 
 - 微信读书
   - https://weread.qq.com/web/reader/7bc32db071f02f257bc2a8a
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-02-13-36-43.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-02-13-36-43.png)
 - vscode.0005 - 《Visual Studio Code 权威指南》学习笔记大纲
   - 这篇笔记记录了《Visual Studio Code 权威指南》的学习笔记大纲，根据书中的目录结构并结合着 vscode 官方文档快速过一遍 vscode 的相关内容，做一些简短的记录。
   - 重点 👉 《Visual Studio Code 权威指南》第 5、6 章

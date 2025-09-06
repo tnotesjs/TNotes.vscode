@@ -65,10 +65,10 @@ vscode://file//etc/hosts
 - 比如你可以随便在 C 盘建一个 test 文件夹，路径为 `C:/test`
 - 然后复制路径拼接到 `vscode://file/` 后边儿，比如 `vscode://file/C:/test`，将这个拼接好的路径丢到浏览器地址栏中
 - 按下回车后会弹出一个确认提示框
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-19-10-20-57.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-19-10-20-57.png)
 - 如果你本地有 test 文件夹，那么就会自动使用 VS Code 打开
 - 如果你本地没有建 test 文件夹，那么会提示路径不存在
-  - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-19-10-22-32.png)
+  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-19-10-22-32.png)
 
 ---
 

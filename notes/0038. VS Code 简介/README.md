@@ -50,8 +50,8 @@
 - VS Code 官方文档
   - https://code.visualstudio.com/
   - 有关 VS Code 的详细介绍，请参考官方文档。
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-05-24-23-47-04.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-05-24-23-47-04.png)
 - VS Code Github
   - https://github.com/microsoft/vscode
   - 有关 VS Code 的实现原理，请参考 VS Code 源码。
-  - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-05-24-23-47-44.png)
+  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-05-24-23-47-44.png)

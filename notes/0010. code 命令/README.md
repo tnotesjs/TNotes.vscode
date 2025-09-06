@@ -209,7 +209,7 @@ code --help
 - 插件 ID `<ext-id>`
   - 安装插件和卸载插件的时候，参数要求是完整的插件 ID，格式为：`publisher.extensionName`。
   - 比如 `alibaba-cloud.tongyi-lingma` 这个 ID 可以通过插件详情页获取，比如 https://marketplace.visualstudio.com/items?itemName=Alibaba-Cloud.tongyi-lingma 链接中的最后一部分 `Alibaba-Cloud.tongyi-lingma` 就是 VS Code 中插件的唯一标识。
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-07-19-10-50-29.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-19-10-50-29.png)
   - 也可以通过 `code --list-extensions` 命令获取插件 ID，这个命令打印的插件列表，其实就是安装的插件的 ID 列表。
 
 ## 4. 💻 通过命令启动 VS Code 打开指定文件夹

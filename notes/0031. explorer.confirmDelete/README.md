@@ -14,7 +14,7 @@
 ## 2. 📒 `explorer.confirmDelete` 配置简介
 
 - `explorer.confirmDelete` 配置字段的默认值为 `true`，意味着在删除资源的时候，会弹出确认提示框：
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-27-22-31-09.png)
+  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-27-22-31-09.png)
 
 ::: code-group
 
@@ -41,6 +41,6 @@
 - **🤔 如果还想恢复确认提示的话，应该怎么做？**
   - 配置界面：
     - 这东西是可以支持配置的，打开【设置】，搜索 delete，找到 Confirm Delete 选项，勾选上确认提示框即可。
-    - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-27-22-31-12.png)
+    - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-27-22-31-12.png)
   - 配置文件：
     - 直接设置 `"explorer.confirmDelete": true`
