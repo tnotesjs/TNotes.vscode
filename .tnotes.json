@@ -1,5 +1,5 @@
 {
-  "author": "Tdahuyou",
+  "author": "tnotesjs",
   "repoName": "TNotes.vscode",
   "keywords": ["TNotes.vscode"],
   "ignore_dirs": [
@@ -19,7 +19,7 @@
     "title": "vscode",
     "completed_notes_count": 18,
     "details": "vscode 笔记",
-    "link": "https://tdahuyou.github.io/TNotes.vscode/",
+    "link": "https://tnotesjs.github.io/TNotes.vscode/",
     "created_at": 1750939332000,
     "updated_at": 1757163553954,
     "days_since_birth": 9495
@@ -40,7 +40,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tdahuyou.github.io/notes"
+      "link": "https://tnotesjs.github.io/notes"
     },
     {
       "text": "📂 TNotes.yuque",
