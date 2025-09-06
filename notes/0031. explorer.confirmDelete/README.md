@@ -1,4 +1,4 @@
-# [0031. explorer.confirmDelete](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0031.%20explorer.confirmDelete)
+# [0031. explorer.confirmDelete](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0031.%20explorer.confirmDelete)
 
 <!-- region:toc -->
 

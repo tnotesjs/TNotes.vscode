@@ -1,4 +1,4 @@
-# [0008. VS Code Insiders](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0008.%20VS%20Code%20Insiders)
+# [0008. VS Code Insiders](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0008.%20VS%20Code%20Insiders)
 
 <!-- region:toc -->
 

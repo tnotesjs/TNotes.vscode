@@ -1,4 +1,4 @@
-# [0002. VS Code 简史](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0002.%20VS%20Code%20%E7%AE%80%E5%8F%B2)
+# [0002. VS Code 简史](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0002.%20VS%20Code%20%E7%AE%80%E5%8F%B2)
 
 <!-- region:toc -->
 

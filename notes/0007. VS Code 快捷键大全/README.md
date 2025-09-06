@@ -1,4 +1,4 @@
-# [0007. VS Code 快捷键大全](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0007.%20VS%20Code%20%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8)
+# [0007. VS Code 快捷键大全](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0007.%20VS%20Code%20%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%A4%A7%E5%85%A8)
 
 <!-- region:toc -->
 

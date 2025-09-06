@@ -1,4 +1,4 @@
-# [0012. Peek 窥视](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0012.%20Peek%20%E7%AA%A5%E8%A7%86)
+# [0012. Peek 窥视](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0012.%20Peek%20%E7%AA%A5%E8%A7%86)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0010. code 命令](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0010.%20code%20%E5%91%BD%E4%BB%A4)
+# [0010. code 命令](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0010.%20code%20%E5%91%BD%E4%BB%A4)
 
 <!-- region:toc -->
 

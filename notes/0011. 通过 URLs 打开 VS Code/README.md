@@ -1,4 +1,4 @@
-# [0011. 通过 URLs 打开 VS Code](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0011.%20%E9%80%9A%E8%BF%87%20URLs%20%E6%89%93%E5%BC%80%20VS%20Code)
+# [0011. 通过 URLs 打开 VS Code](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0011.%20%E9%80%9A%E8%BF%87%20URLs%20%E6%89%93%E5%BC%80%20VS%20Code)
 
 <!-- region:toc -->
 

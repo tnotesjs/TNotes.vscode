@@ -1,4 +1,4 @@
-# [0032. lake-editor 插件](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0032.%20lake-editor%20%E6%8F%92%E4%BB%B6)
+# [0032. lake-editor 插件](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0032.%20lake-editor%20%E6%8F%92%E4%BB%B6)
 
 <!-- region:toc -->
 

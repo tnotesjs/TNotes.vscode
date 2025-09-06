@@ -1,4 +1,4 @@
-# [0015. Tasks Schema](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0015.%20Tasks%20Schema)
+# [0015. Tasks Schema](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0015.%20Tasks%20Schema)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0003. VS Code 核心组件](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0003.%20VS%20Code%20%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6)
+# [0003. VS Code 核心组件](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0003.%20VS%20Code%20%E6%A0%B8%E5%BF%83%E7%BB%84%E4%BB%B6)
 
 <!-- region:toc -->
 

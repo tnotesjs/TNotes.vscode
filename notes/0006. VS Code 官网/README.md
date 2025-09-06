@@ -1,4 +1,4 @@
-# [0006. VS Code 官网](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0006.%20VS%20Code%20%E5%AE%98%E7%BD%91)
+# [0006. VS Code 官网](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0006.%20VS%20Code%20%E5%AE%98%E7%BD%91)
 
 <!-- region:toc -->
 

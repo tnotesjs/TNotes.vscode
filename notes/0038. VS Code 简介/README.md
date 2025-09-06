@@ -1,4 +1,4 @@
-# [0038. VS Code 简介](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0038.%20VS%20Code%20%E7%AE%80%E4%BB%8B)
+# [0038. VS Code 简介](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0038.%20VS%20Code%20%E7%AE%80%E4%BB%8B)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [0009. VS Code 菜鸟教程](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B)
+# [0009. VS Code 菜鸟教程](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B)
 
 <!-- region:toc -->
 

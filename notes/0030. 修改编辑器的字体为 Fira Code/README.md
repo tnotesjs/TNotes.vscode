@@ -1,4 +1,4 @@
-# [0030. 修改编辑器的字体为 Fira Code](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0030.%20%E4%BF%AE%E6%94%B9%E7%BC%96%E8%BE%91%E5%99%A8%E7%9A%84%E5%AD%97%E4%BD%93%E4%B8%BA%20Fira%20Code)
+# [0030. 修改编辑器的字体为 Fira Code](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0030.%20%E4%BF%AE%E6%94%B9%E7%BC%96%E8%BE%91%E5%99%A8%E7%9A%84%E5%AD%97%E4%BD%93%E4%B8%BA%20Fira%20Code)
 
 <!-- region:toc -->
 

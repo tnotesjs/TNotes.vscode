@@ -1,4 +1,4 @@
-# [0005. 《Visual Studio Code 权威指南》笔记](https://github.com/Tdahuyou/TNotes.vscode/tree/main/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0)
+# [0005. 《Visual Studio Code 权威指南》笔记](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0)
 
 <!-- region:toc -->
 
