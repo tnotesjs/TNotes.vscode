@@ -23,7 +23,7 @@
     "details": "vscode 笔记",
     "link": "https://tnotesjs.github.io/TNotes.vscode/",
     "created_at": 1750939332000,
-    "updated_at": 1757172137649,
+    "updated_at": 1757554187578,
     "days_since_birth": 9495
   },
   "port": 9495,
@@ -42,7 +42,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tnotesjs.github.io/notes"
+      "link": "https://tnotesjs.github.io/TNotes"
     },
     {
       "text": "📂 TNotes.yuque",
