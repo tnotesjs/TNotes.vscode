@@ -2,18 +2,7 @@
 
 <!-- region:toc -->
 
-- [vscode](#vscode)
-  - [1. 学习资源](#1-学习资源)
-  - [2. VS Code 简介](#2-vs-code-简介)
-  - [3. VS Code 核心组件](#3-vs-code-核心组件)
-  - [4. VS Code 不同版本](#4-vs-code-不同版本)
-  - [5. VS Code 快捷方式](#5-vs-code-快捷方式)
-  - [6. code 命令](#6-code-命令)
-  - [7. vscode:// 协议](#7-vscode-协议)
-  - [8. Tasks](#8-tasks)
-  - [9. Peek](#9-peek)
-  - [10. Others](#10-others)
-  - [11. ⏰ pending](#11--pending)
+
 
 <!-- endregion:toc -->
 
