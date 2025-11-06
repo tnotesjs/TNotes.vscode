@@ -6,7 +6,7 @@
 - [2. 💻 通过 URL 链接打开 VS Code](#2--通过-url-链接打开-vs-code)
 - [3. 📒 `vscode://` 协议](#3--vscode-协议)
 - [4. 💻 通过浏览器快速打开 VS Code](#4--通过浏览器快速打开-vs-code)
-- [5. 🔗 References](#5--references)
+- [5. 🔗 引用](#5--引用)
 
 <!-- endregion:toc -->
 
@@ -83,7 +83,7 @@ vscode://file//etc/hosts
 >
 ```
 
-## 5. 🔗 References
+## 5. 🔗 引用
 
 - https://code.visualstudio.com/docs/configure/command-line
   - 查看 VS Code 官方文档对 opening-vs-code-with-urls 的描述

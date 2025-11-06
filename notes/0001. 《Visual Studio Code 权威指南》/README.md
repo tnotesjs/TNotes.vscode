@@ -4,9 +4,11 @@
 
 - [1. 🎯 本节内容](#1--本节内容)
 - [2. 🫧 评价](#2--评价)
-- [3. 🤔 这本书的简介是？作者是？](#3--这本书的简介是作者是)
-- [4. 🤔 这本书的大纲是？](#4--这本书的大纲是)
-- [5. 🔗 引用](#5--引用)
+- [3. 🤔 这本书的在线阅读链接是？](#3--这本书的在线阅读链接是)
+- [4. 🤔 这本书讲了啥？](#4--这本书讲了啥)
+- [5. 🤔 这本书的作者是谁？](#5--这本书的作者是谁)
+- [6. 🤔 这本书的大纲是？](#6--这本书的大纲是)
+- [7. 🔗 引用](#7--引用)
 
 <!-- endregion:toc -->
 
@@ -16,24 +18,29 @@
 
 ## 2. 🫧 评价
 
-在微信读书上上可在线阅读这本书籍。
-
 当前知识库的笔记 `0005. 《Visual Studio Code 权威指南》笔记` 中记录了这本书的学习笔记草稿。
 
-## 3. 🤔 这本书的简介是？作者是？
+## 3. 🤔 这本书的在线阅读链接是？
+
+你可以在 [微信读书][1] 上在线阅读本书。
 
 ![1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-02-13-36-43.png)
 
+## 4. 🤔 这本书讲了啥？
+
 内容简介：
 
-- 本书由浅入深地介绍了 Visual Studio Code 的各个方面，主要包括 Visual Studio Code 的核心组件、使用技巧、进阶应用、插件推荐、插件开发、Visual Studio family 的各个核心产品等。此外，本书还详细介绍了如何使用 Visual Studio Code 进行各种编程语言的开发、前端开发、云计算开发、物联网开发和远程开发。
-- 本书适合刚开始使用 Visual Studio Code 的读者阅读，也适合有一定 Visual Studio Code 使用经验并且想更全面深入地了解 Visual Studio Code 的读者阅读。
+本书由浅入深地介绍了 Visual Studio Code 的各个方面，主要包括 Visual Studio Code 的核心组件、使用技巧、进阶应用、插件推荐、插件开发、Visual Studio family 的各个核心产品等。此外，本书还详细介绍了如何使用 Visual Studio Code 进行各种编程语言的开发、前端开发、云计算开发、物联网开发和远程开发。
+
+本书适合刚开始使用 Visual Studio Code 的读者阅读，也适合有一定 Visual Studio Code 使用经验并且想更全面深入地了解 Visual Studio Code 的读者阅读。
+
+## 5. 🤔 这本书的作者是谁？
 
 作者简介：
 
-- 韩骏，毕业于上海交通大学软件学院，微软开发平台事业部软件工程师。VS Code（Visual Studio Code）中文社区创始人，VS Code 代码贡献者，“玩转 VS Code”微信公众号及知乎专栏作者，PyCon、JSConf、.NET Conf、Microsoft Tech Summit、Google Developer Group、COSCon 等技术大会讲师。编写过 20 多款 VS Code 插件，其中 Code Runner 插件下载量超过 1 000 万。
+韩骏，毕业于上海交通大学软件学院，微软开发平台事业部软件工程师。VS Code（Visual Studio Code）中文社区创始人，VS Code 代码贡献者，“玩转 VS Code”微信公众号及知乎专栏作者，PyCon、JSConf、.NET Conf、Microsoft Tech Summit、Google Developer Group、COSCon 等技术大会讲师。编写过 20 多款 VS Code 插件，其中 Code Runner 插件下载量超过 1 000 万。
 
-## 4. 🤔 这本书的大纲是？
+## 6. 🤔 这本书的大纲是？
 
 - 第 1 章 如何学习 Visual Studio Code
   - 1.1 学会搜索
@@ -135,7 +142,7 @@
   - 15.4 插件开发面面观
   - 15.5 插件开发的生命周期
 
-## 5. 🔗 引用
+## 7. 🔗 引用
 
 - [微信读书][1]
 

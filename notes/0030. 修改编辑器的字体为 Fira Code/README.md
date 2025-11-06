@@ -14,7 +14,7 @@
   - [6.4. 方法 4: 使用 PowerShell](#64-方法-4-使用-powershell)
   - [6.5. 安装 Fira Code 字体](#65-安装-fira-code-字体)
   - [6.6. 检查 VSCode 设置](#66-检查-vscode-设置)
-- [7. 🔗 References](#7--references)
+- [7. 🔗 引用](#7--引用)
 
 <!-- endregion:toc -->
 
@@ -159,7 +159,7 @@ https://github.com/tonsky/FiraCode/releases/tag/6.2
 
 :::
 
-## 7. 🔗 References
+## 7. 🔗 引用
 
 ::: details
 

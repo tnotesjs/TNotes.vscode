@@ -4,11 +4,15 @@
     "collapsed": true,
     "items": [
       {
+        "text": "✅ 0016. 学习资源",
+        "link": "/notes/0016. 学习资源/README"
+      },
+      {
         "text": "✅ 0001. 《Visual Studio Code 权威指南》",
         "link": "/notes/0001. 《Visual Studio Code 权威指南》/README"
       },
       {
-        "text": "⏰ 0005. 《Visual Studio Code 权威指南》笔记",
+        "text": "✅ 0005. 《Visual Studio Code 权威指南》笔记",
         "link": "/notes/0005. 《Visual Studio Code 权威指南》笔记/README"
       },
       {
@@ -30,8 +34,8 @@
         "link": "/notes/0002. VS Code 简史/README"
       },
       {
-        "text": "✅ 0004. 在 Stack Overflow 的调查报告中查看全球最受欢迎的 IDE",
-        "link": "/notes/0004. 在 Stack Overflow 的调查报告中查看全球最受欢迎的 IDE/README"
+        "text": "✅ 0004. 最受欢迎的 IDE",
+        "link": "/notes/0004. 最受欢迎的 IDE/README"
       }
     ]
   },
@@ -148,10 +152,6 @@
       {
         "text": "⏰ 0009. VS Code 菜鸟教程",
         "link": "/notes/0009. VS Code 菜鸟教程/README"
-      },
-      {
-        "text": "⏰ 0016. xxx",
-        "link": "/notes/0016. xxx/README"
       },
       {
         "text": "⏰ 0017. xxx",

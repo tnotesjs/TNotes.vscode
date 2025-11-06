@@ -5,7 +5,7 @@
 - [1. 📝 概述](#1--概述)
 - [2. 📒 VS Code Insiders](#2--vs-code-insiders)
 - [3. 💻 使用预览版来打开指定文件夹](#3--使用预览版来打开指定文件夹)
-- [4. 🔗 References](#4--references)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
@@ -48,7 +48,7 @@ code-insiders . # 打开当前文件夹
 code-insiders <file> # 打开指定文件夹
 ```
 
-## 4. 🔗 References
+## 4. 🔗 引用
 
 - https://code.visualstudio.com/insiders/
   - Download Visual Studio Code Insiders

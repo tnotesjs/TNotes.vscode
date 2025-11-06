@@ -5,7 +5,7 @@
 - [1. 📝 概述](#1--概述)
 - [2. 🤔 如何查看 tasks 配置字段都有哪些？](#2--如何查看-tasks-配置字段都有哪些)
 - [3. ⚙️ Schema for tasks.json](#3-️-schema-for-tasksjson)
-- [4. 🔗 References](#4--references)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
@@ -825,7 +825,7 @@ interface RunOptions {
 
 :::
 
-## 4. 🔗 References
+## 4. 🔗 引用
 
 - https://code.visualstudio.com/docs/reference/tasks-appendix
   - VSCode 官方文档 - Schema for tasks.json - 用于查阅 tasks 的数据结构

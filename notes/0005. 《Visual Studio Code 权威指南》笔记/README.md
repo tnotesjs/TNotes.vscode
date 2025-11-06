@@ -115,13 +115,17 @@
 
 这篇笔记记录了《Visual Studio Code 权威指南》的学习笔记大纲，根据书中的目录结构并结合着 vscode 官方文档快速过一遍 vscode 的相关内容，做一些简短的记录。
 
-重点 👉 《Visual Studio Code 权威指南》第 5、6 章
+重点：《Visual Studio Code 权威指南》第 5、6 章
+
+备注：从第 7 章开始到结尾的内容还没看，感觉帮助不大。
 
 ## 3. 📝 笔记大纲
 
 ### 3.1. 🎯 第 1 章 如何学习 Visual Studio Code
 
-- 提到 vscode 的内容非常多，本书无法讲解完全，因此，在第一章，特地讲讲如何学习 vscode，授人以鱼不如授人以渔，若在学习 vscode 的过程中遇到了问题，可以自行查阅相关资料来解决。
+没啥干货。
+
+这一章提到 vscode 的内容非常多，本书无法讲解完全。因此，在第一章，特地讲讲如何学习 vscode，授人以鱼不如授人以渔，若在学习 vscode 的过程中遇到了问题，可以自行查阅相关资料来解决。
 
 #### 学会搜索
 
@@ -148,7 +152,9 @@
 
 ### 3.2. 🎯 第 2 章 Visual Studio Code 简介
 
-- Visual Studio Code 是一款免费且开源的现代化轻量级代码编辑器，支持几乎所有主流开发语言的语法高亮、智能代码补全、自定义快捷键、括号匹配和颜色区分、代码片段提示、代码对比等特性，也拥有对 Git 的开箱即用的支持。同时，它还支持插件扩展，通过丰富的插件，用户能获得更多高效的功能。
+这一章是对 VSCode 的简单介绍。
+
+Visual Studio Code 是一款免费且开源的现代化轻量级代码编辑器，支持几乎所有主流开发语言的语法高亮、智能代码补全、自定义快捷键、括号匹配和颜色区分、代码片段提示、代码对比等特性，也拥有对 Git 的开箱即用的支持。同时，它还支持插件扩展，通过丰富的插件，用户能获得更多高效的功能。
 
 #### Visual Studio Code 概览
 
@@ -203,6 +209,8 @@
 
 ### 3.3. 🎯 第 3 章 核心组件
 
+这一章介绍的是 VSCode 的核心组件，能够帮你快速了解 VSCode 的基本组成。
+
 #### Electron
 
 - Electron 以 Node.js 作为运行时(runtime)，以 Chromium 作为渲染引擎，使开发者可以使用 HTML、CSS 和 JavaScript 这样的前端技术栈来开发跨平台桌面 GUI 应用程序。
@@ -219,43 +227,55 @@
 
 #### Language Server Protocol
 
-- 语言服务器(Language Server)提供了诸如自动补全、定义跳转、代码格式化等与编程语言相关的功能。
-- Language Server Protocol(LSP)是编辑器/IDE 与语言服务器之间的一种协议，通过 JSON-RPC 传输消息，可以让不同的编辑器/IDE 方便嵌入各种编程语言，使得开发人员能在最喜爱的工具中使用各种语言来编写程序。
+- 语言服务器（Language Server）提供了诸如自动补全、定义跳转、代码格式化等与编程语言相关的功能。
+- Language Server Protocol（LSP）是编辑器/IDE 与语言服务器之间的一种协议，通过 JSON-RPC 传输消息，可以让不同的编辑器/IDE 方便嵌入各种编程语言，使得开发人员能在最喜爱的工具中使用各种语言来编写程序。
 - LSP 最初只是为 Visual Studio Code 而开发的。到了 2016 年 6 月 27 日，微软宣布与 Red Hat 和 Codenvy 一起合作，标准化了 Language Server Protocol 的规范。如今，众多主流语言都已经有了相应的 Language Server，许多编辑器/IDE 也都支持了 LSP，包括 Visual Studio Code、Visual Studio、Eclipse IDE、Eclipse Che、Eclipse Theia、Atom、Sublime Text、Emacs、Qt Creator 等。
 - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-04-32.png)
 
 #### Debug Adapter Protocol
 
-- Debug Adapter Protocol（DAP） 是一种调试通信协议 ，由 Microsoft 提出并开源，用于在 **编辑器/IDE（如 VS Code）** 和 **调试后端（如调试器、运行时环境）** 之间建立统一的通信接口。
+- Debug Adapter Protocol（DAP） 是一种调试通信协议 ，由 Microsoft 提出并开源，用于在 编辑器/IDE（如 VS Code） 和 调试后端（如调试器、运行时环境） 之间建立统一的通信接口。
 - 背景：传统的调试方式中，每种语言或平台都需要编辑器单独集成对应的调试逻辑，导致开发复杂、维护困难。
 - 目标：让一个编辑器可以通过统一的方式支持多种语言和调试器。
   - 编辑器只需实现一次 DAP 客户端。
   - 每种语言只需提供一个遵循 DAP 规范的“适配器”（Adapter）。
   - 这样就可以轻松支持多种语言和调试器。
-- 对比 DAP 之前和之后
-  - 之前：
-  - ![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-17-37.png)
-  - 之后：
-  - ![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-18-01.png)
-- 示例：`.vscode/launch.json`
-  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-13-27.png)
-  - `"type"` 表示使用哪种 Debug Adapter。
-  - VS Code 会根据这个类型启动相应的适配器并与之通信。
-- 工作原理（在 VS Code 中）
-  1. **用户操作：**
-     - 用户点击“启动调试”按钮。
-     - VS Code 读取 `.vscode/launch.json` 配置文件中的调试配置。
-  2. **VS Code 向 Debug Adapter 发送请求：**
-     - 如：启动调试会话、设置断点、继续执行等。
-  3. **Debug Adapter 转发给实际调试器：**
-     - Adapter 将 DAP 请求转换为调试器能理解的命令。
-     - 例如：将“设置断点”的请求翻译成 GDB 或 V8 引擎的命令。
-  4. **调试器执行并返回结果：**
-     - 结果通过 Adapter 返回给 VS Code。
-     - VS Code 显示变量值、调用栈、暂停状态等信息。
-- more info
-  - Debug Adapter Protocol 官方文档 -> https://microsoft.github.io/debug-adapter-protocol/
-  - VS Code Debugging 文档 -> https://code.visualstudio.com/docs/debugtest/debugging
+
+对比 DAP 之前和之后：
+
+::: swiper
+
+![DAP 之前](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-17-37.png)
+
+![DAP 之后](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-18-01.png)
+
+:::
+
+示例：`.vscode/launch.json`：
+
+![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-14-20-13-27.png)
+
+- `"type"` 表示使用哪种 Debug Adapter。
+- VS Code 会根据这个类型启动相应的适配器并与之通信。
+
+工作原理（在 VS Code 中）：
+
+1. 用户操作：
+   - 用户点击“启动调试”按钮。
+   - VS Code 读取 `.vscode/launch.json` 配置文件中的调试配置。
+2. VS Code 向 Debug Adapter 发送请求：
+   - 如：启动调试会话、设置断点、继续执行等。
+3. Debug Adapter 转发给实际调试器：
+   - Adapter 将 DAP 请求转换为调试器能理解的命令。
+   - 例如：将“设置断点”的请求翻译成 GDB 或 V8 引擎的命令。
+4. 调试器执行并返回结果：
+   - 结果通过 Adapter 返回给 VS Code。
+   - VS Code 显示变量值、调用栈、暂停状态等信息。
+
+more info：
+
+- Debug Adapter Protocol 官方文档 -> https://microsoft.github.io/debug-adapter-protocol/
+- VS Code Debugging 文档 -> https://code.visualstudio.com/docs/debugtest/debugging
 
 #### Xterm.js
 
@@ -265,26 +285,29 @@
 
 ### 3.4. 🎯 第 4 章 安装与配置
 
-- <https://code.visualstudio.com/download>
-- https://code.visualstudio.com/download
+直接到官方文档下载即可，下面是下载链接：
+
+https://code.visualstudio.com/download
 
 #### 概览
 
-- 跳过
+跳过...
 
 #### Linux
 
-- 跳过
+跳过...
 
 #### macOS
 
-- 跳过
+跳过...
 
 #### Windows
 
-- 跳过
+跳过...
 
 ### 3.5. 🎯 第 5 章 快速入门
+
+这一章是重点，介绍的是 VSCode 的基本使用。
 
 #### Visual Studio Code Insiders
 
@@ -527,145 +550,39 @@
 
 ### 3.6. 🎯 第 6 章 进阶应用
 
+这一张也是重点，相当于是在第 5 章基础用法之上，进一步介绍有关 VSCode 的更高级一些的用法。
+
+可以说是专门为开发人员准备的内容。
+
 #### 命令行
 
 - 命令行帮助
   - `code --help` vscode 帮助命令，会打印 VS Code 的版本信息及各个命令的详细介绍。
 
-```bash
-code --help
-# Visual Studio Code 1.102.1
+::: details 查看 `code --help` 命令的输出
 
-# Usage: code [options] [paths...]
+<<< ./assets/1.txt {bash}
 
-# To read from stdin, append '-' (e.g. 'ps aux | grep code | code -')
-
-# Options
-#   -d --diff <file> <file>                    Compare two files with each
-#                                              other.
-#   -m --merge <path1> <path2> <base> <result> Perform a three-way merge by
-#                                              providing paths for two
-#                                              modified versions of a file,
-#                                              the common origin of both
-#                                              modified versions and the
-#                                              output file to save merge
-#                                              results.
-#   -a --add <folder>                          Add folder(s) to the last
-#                                              active window.
-#   --remove <folder>                          Remove folder(s) from the last
-#                                              active window.
-#   -g --goto <file:line[:character]>          Open a file at the path on the
-#                                              specified line and character
-#                                              position.
-#   -n --new-window                            Force to open a new window.
-#   -r --reuse-window                          Force to open a file or folder
-#                                              in an already opened window.
-#   -w --wait                                  Wait for the files to be
-#                                              closed before returning.
-#   --locale <locale>                          The locale to use (e.g. en-US
-#                                              or zh-TW).
-#   --user-data-dir <dir>                      Specifies the directory that
-#                                              user data is kept in. Can be
-#                                              used to open multiple distinct
-#                                              instances of Code.
-#   --profile <profileName>                    Opens the provided folder or
-#                                              workspace with the given
-#                                              profile and associates the
-#                                              profile with the workspace. If
-#                                              the profile does not exist, a
-#                                              new empty one is created.
-#   -h --help                                  Print usage.
-
-# Extensions Management
-#   --extensions-dir <dir>              Set the root path for extensions.
-#   --list-extensions                   List the installed extensions.
-#   --show-versions                     Show versions of installed
-#                                       extensions, when using
-#                                       --list-extensions.
-#   --category <category>               Filters installed extensions by
-#                                       provided category, when using
-#                                       --list-extensions.
-#   --install-extension <ext-id | path> Installs or updates an extension. The
-#                                       argument is either an extension id or
-#                                       a path to a VSIX. The identifier of
-#                                       an extension is
-#                                       '${publisher}.${name}'. Use '--force'
-#                                       argument to update to latest version.
-#                                       To install a specific version provide
-#                                       '@${version}'. For example:
-#                                       'vscode.csharp@1.2.3'.
-#   --pre-release                       Installs the pre-release version of
-#                                       the extension, when using
-#                                       --install-extension
-#   --uninstall-extension <ext-id>      Uninstalls an extension.
-#   --update-extensions                 Update the installed extensions.
-#   --enable-proposed-api <ext-id>      Enables proposed API features for
-#                                       extensions. Can receive one or more
-#                                       extension IDs to enable
-#                                       individually.
-
-# Model Context Protocol
-#   --add-mcp <json> Adds a Model Context Protocol server definition to the
-#                    user profile. Accepts JSON input in the form
-#                    '{"name":"server-name","command":...}'
-
-# Troubleshooting
-#   -v --version
-#       Print version.
-#   --verbose
-#       Print verbose output (implies --wait).
-#   --log <level>
-#       Log level to use. Default is 'info'. Allowed values are 'critical', 'error', 'warn', 'info', 'debug', 'trace', 'off'. You can also configure the log level of an extension by passing extension id and log level in the following format: '${publisher}.${name}:${logLevel}'. For example: 'vscode.csharp:trace'. Can receive one or more such entries.
-#   -s --status
-#       Print process usage and diagnostics information.
-#   --prof-startup
-#       Run CPU profiler during startup.
-#   --disable-extensions
-#       Disable all installed extensions. This option is not persisted and is effective only when the command opens a new window.
-#   --disable-extension <ext-id>
-#       Disable the provided extension. This option is not persisted and is effective only when the command opens a new window.
-#   --sync <on | off>
-#       Turn sync on or off.
-#   --inspect-extensions <port>
-#       Allow debugging and profiling of extensions. Check the developer tools for the connection URI.
-#   --inspect-brk-extensions <port>
-#       Allow debugging and profiling of extensions with the extension host being paused after start. Check the developer tools for the connection URI.
-#   --disable-lcd-text
-#       Disable LCD font rendering.
-#   --disable-gpu
-#       Disable GPU hardware acceleration.
-#   --disable-chromium-sandbox
-#       Use this option only when there is requirement to launch the application as sudo user on Linux or when running as an elevated user in an applocker environment on Windows.
-#   --locate-shell-integration-path <shell>
-#       Print the path to a terminal shell integration script. Allowed values are 'bash', 'pwsh', 'zsh' or 'fish'.
-#   --telemetry
-#       Shows all telemetry events which VS code collects.
-#   --startup-experiment-group <control|maximizedChat|splitEmptyEditorChat|splitWelcomeChat>
-#       Override the startup experiment group.
-
-# Subcommands
-#   chat         Pass in a prompt to run in a chat session in the current
-#                working directory.
-#   serve-web    Run a server that displays the editor UI in browsers.
-#   tunnel       Make the current machine accessible from vscode.dev or other
-#                machines through a secure tunnel.
-```
+:::
 
 - 通过命令启动 VS Code
   - `code .` 使用 VS Code 打开当前文件夹
   - `code <file>` 使用 VS Code 打开指定文件
-- Visual Studio Code Insiders 可以通过 `code-insiders .` 来启动
-- 示例：在一个空文件夹下执行下面的命令，会创建 `index.html`、`style.css`、`readme.md` 这 3 个文件，以及 `documentation` 文件夹，其中 `readme.md` 文件位于 `documentation` 文件夹下。
+  - 如果是 Visual Studio Code Insiders，可以通过 `code-insiders .` 来启动
+
+示例：
 
 ```bash
 code index.html style.css documentation/readme.md
 ```
 
+在一个空文件夹下执行下面的命令，会创建 `index.html`、`style.css`、`readme.md` 这 3 个文件，以及 `documentation` 文件夹，其中 `readme.md` 文件位于 `documentation` 文件夹下。
+
 #### IntelliSense
 
 - https://code.visualstudio.com/docs/editing/intellisense
 - IntelliSense 是各类代码编辑功能的统称，包括：代码补全、参数信息、快速信息以及成员列表。这些功能有时也被称为"代码补全"、"内容辅助"或"代码提示"。
-- Visual Studio Code 的 IntelliSense 功能由语言服务(Language Server)驱动。
+- Visual Studio Code 的 IntelliSense 功能由语言服务（Language Server）驱动。
 - 当你在输入代码时，如果语言服务能推算出潜在的代码补全，那么就会显示 IntelliSense 的代码补全提示。按下 Tab 键或 Enter 键就可以插入所选择的补全选项。
 - Visual Studio Code 为 JavaScript、TypeScript、JSON、HTML、CSS、SCSS 和 Less 提供了开箱即用的 IntelliSense 功能。VS Code 支持所有编程语言的基于单词的自动补全，但也可以通过安装语言扩展来配置更丰富的 IntelliSense 功能。以下是 Visual Studio Marketplace 中最受欢迎的语言扩展。
 - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-19-13-23-39.png)
@@ -775,7 +692,7 @@ code index.html style.css documentation/readme.md
 - https://code.visualstudio.com/docs/editing/userdefinedsnippets
   - Snippets in Visual Studio Code
 - 可以通过插件来自动注入一些 snippets，也可以自定义 snippets，还可以为 snippets 添加快捷键。
-- 自定义配置 snippets 示例：**为 vitepress 中的 `code-group` 语法添加一个 snippet**
+- 自定义配置 snippets 示例：为 vitepress 中的 `code-group` 语法添加一个 snippet
   - 命令面板输入 `Snippets: Configure Snippets` 打开 snippets 配置
   - 找到 markdown 配置文件
   - 根据官方要求编写配置

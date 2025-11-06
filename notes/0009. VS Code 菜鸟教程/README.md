@@ -4,7 +4,7 @@
 
 - [1. 📝 概述](#1--概述)
 - [2. 📒 教程大纲](#2--教程大纲)
-- [3. 🔗 References](#3--references)
+- [3. 🔗 引用](#3--引用)
 
 <!-- endregion:toc -->
 
@@ -40,6 +40,6 @@
 - GitHub Copilot
 - VSCode 数据库客户端
 
-## 3. 🔗 References
+## 3. 🔗 引用
 
 - https://www.runoob.com/vscode/vscode-tutorial.html

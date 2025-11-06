@@ -4,7 +4,7 @@
 
 - [1. 📝 概述](#1--概述)
 - [2. 🔍 查看快捷键大全](#2--查看快捷键大全)
-- [3. 🔗 References](#3--references)
+- [3. 🔗 引用](#3--引用)
 
 <!-- endregion:toc -->
 
@@ -20,7 +20,7 @@
 - https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf
 - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-17-21-56-34.png)
 
-## 3. 🔗 References
+## 3. 🔗 引用
 
 - https://code.visualstudio.com/docs/configure/keybindings
   - Keyboard shortcuts for Visual Studio Code

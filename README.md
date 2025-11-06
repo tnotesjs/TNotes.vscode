@@ -18,15 +18,16 @@
 
 ## 1. 学习资源
 
+- [x] [0016. 学习资源](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0016.%20%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90/README.md)
 - [x] [0001. 《Visual Studio Code 权威指南》](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0001.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B/README.md)
-- [ ] [0005. 《Visual Studio Code 权威指南》笔记](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0/README.md)
+- [x] [0005. 《Visual Studio Code 权威指南》笔记](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0005.%20%E3%80%8AVisual%20Studio%20Code%20%E6%9D%83%E5%A8%81%E6%8C%87%E5%8D%97%E3%80%8B%E7%AC%94%E8%AE%B0/README.md)
 - [x] [0039. VSCode 参考资料](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0039.%20VSCode%20%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99/README.md)
 
 ## 2. VS Code 简介
 
 - [x] [0038. VS Code 简介](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0038.%20VS%20Code%20%E7%AE%80%E4%BB%8B/README.md)
 - [x] [0002. VS Code 简史](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0002.%20VS%20Code%20%E7%AE%80%E5%8F%B2/README.md)
-- [x] [0004. 在 Stack Overflow 的调查报告中查看全球最受欢迎的 IDE](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0004.%20%E5%9C%A8%20Stack%20Overflow%20%E7%9A%84%E8%B0%83%E6%9F%A5%E6%8A%A5%E5%91%8A%E4%B8%AD%E6%9F%A5%E7%9C%8B%E5%85%A8%E7%90%83%E6%9C%80%E5%8F%97%E6%AC%A2%E8%BF%8E%E7%9A%84%20IDE/README.md)
+- [x] [0004. 最受欢迎的 IDE](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0004.%20%E6%9C%80%E5%8F%97%E6%AC%A2%E8%BF%8E%E7%9A%84%20IDE/README.md)
 
 ## 3. VS Code 核心组件
 
@@ -68,7 +69,6 @@
 - [ ] [0037. TNotes 的 VS Code 配置项](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0037.%20TNotes%20%E7%9A%84%20VS%20Code%20%E9%85%8D%E7%BD%AE%E9%A1%B9/README.md)
 - [ ] [0006. VS Code 官网](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0006.%20VS%20Code%20%E5%AE%98%E7%BD%91/README.md)
 - [ ] [0009. VS Code 菜鸟教程](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0009.%20VS%20Code%20%E8%8F%9C%E9%B8%9F%E6%95%99%E7%A8%8B/README.md)
-- [ ] [0016. xxx](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0016.%20xxx/README.md)
 - [ ] [0017. xxx](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0017.%20xxx/README.md)
 - [ ] [0018. xxx](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0018.%20xxx/README.md)
 - [ ] [0019. xxx](https://github.com/tnotesjs/TNotes.introduction/tree/main/notes/0019.%20xxx/README.md)
