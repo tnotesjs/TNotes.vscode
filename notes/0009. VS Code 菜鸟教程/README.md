@@ -2,17 +2,25 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 📒 教程大纲](#2--教程大纲)
-- [3. 🔗 引用](#3--引用)
+- [1. 🎯 本节内容](#1--本节内容)
+- [2. 🫧 评价](#2--评价)
+- [3. 🤔 菜鸟教程上的 VSCode 教程都讲了些什么内容？](#3--菜鸟教程上的-vscode-教程都讲了些什么内容)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 🎯 本节内容
 
-- 在线免费 VS Code 学习资源。
+- VS Code 菜鸟教程简介
 
-## 2. 📒 教程大纲
+## 2. 🫧 评价
+
+- 菜鸟教程的 `VSCode` 入门指南对零基础开发者非常友好，能快速掌握基础操作和核心功能。
+- 作为快速上手资源值得推荐，建议结合官方文档补充学习以应对复杂开发需求。
+
+## 3. 🤔 菜鸟教程上的 VSCode 教程都讲了些什么内容？
+
+目录大纲：
 
 - VSCode 教程
 - VSCode 简介
@@ -39,7 +47,10 @@
 - VSCode DeepSeek
 - GitHub Copilot
 - VSCode 数据库客户端
+- VS Code MCP 服务
 
-## 3. 🔗 引用
+## 4. 🔗 引用
 
-- https://www.runoob.com/vscode/vscode-tutorial.html
+- [菜鸟教程 - VSCode 教程][1]
+
+[1]: https://www.runoob.com/vscode/vscode-tutorial.html
