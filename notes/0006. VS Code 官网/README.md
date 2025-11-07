@@ -45,6 +45,11 @@
 
 ## 4. 🤔 Docs 中都介绍了哪些内容？
 
+核心有两点：
+
+- 一、VSCode 编辑器的核心功能 - 告诉你编辑器能干啥
+- 二、VSCode 在开发特定语言项目的专项说明（nodejs、js、ts、py、java、cpp、c#） - 告诉你在特定场景下应该咋用
+
 Docs 大纲：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-11-07-10-48-19.png)
