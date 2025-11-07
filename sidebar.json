@@ -68,12 +68,8 @@
         "link": "/notes/0008. VS Code Insiders/README"
       },
       {
-        "text": "⏰ 0042. Stable、Insiders、Exploration、Web 对比与选择",
-        "link": "/notes/0042. Stable、Insiders、Exploration、Web 对比与选择/README"
-      },
-      {
-        "text": "⏰ 0043. 安装与更新策略（自动更新、手动、多版本共存）",
-        "link": "/notes/0043. 安装与更新策略（自动更新、手动、多版本共存）/README"
+        "text": "✅ 0042. Stable、Insiders、Web 对比与选择",
+        "link": "/notes/0042. Stable、Insiders、Web 对比与选择/README"
       }
     ]
   },

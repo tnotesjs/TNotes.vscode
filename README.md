@@ -44,8 +44,7 @@
 
 - [ ] [0006. VS Code 官网](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0006.%20VS%20Code%20%E5%AE%98%E7%BD%91/README.md)
 - [x] [0008. VS Code Insiders](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0008.%20VS%20Code%20Insiders/README.md)
-- [ ] [0042. Stable、Insiders、Exploration、Web 对比与选择](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0042.%20Stable%E3%80%81Insiders%E3%80%81Exploration%E3%80%81Web%20%E5%AF%B9%E6%AF%94%E4%B8%8E%E9%80%89%E6%8B%A9/README.md)
-- [ ] [0043. 安装与更新策略（自动更新、手动、多版本共存）](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0043.%20%E5%AE%89%E8%A3%85%E4%B8%8E%E6%9B%B4%E6%96%B0%E7%AD%96%E7%95%A5%EF%BC%88%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0%E3%80%81%E6%89%8B%E5%8A%A8%E3%80%81%E5%A4%9A%E7%89%88%E6%9C%AC%E5%85%B1%E5%AD%98%EF%BC%89/README.md)
+- [x] [0042. Stable、Insiders、Web 对比与选择](https://github.com/tnotesjs/TNotes.vscode/tree/main/notes/0042.%20Stable%E3%80%81Insiders%E3%80%81Web%20%E5%AF%B9%E6%AF%94%E4%B8%8E%E9%80%89%E6%8B%A9/README.md)
 
 ## 4. 核心界面与组件
 
