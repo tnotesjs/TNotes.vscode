@@ -1,11 +1,12 @@
 {
-  "id": "e4d5baa5-a211-4d53-9334-1b7989b1eff7",
   "bilibili": [],
   "tnotes": [],
   "yuque": [],
   "done": false,
   "deprecated": false,
   "enableDiscussions": false,
+  "description": "",
+  "id": "e4d5baa5-a211-4d53-9334-1b7989b1eff7",
   "created_at": 1762471696476,
   "updated_at": 1762471696476
 }
