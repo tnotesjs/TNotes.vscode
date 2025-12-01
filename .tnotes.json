@@ -20,7 +20,7 @@
     },
     "title": "vscode",
     "completed_notes_count": {
-      "25.06": 0,
+      "25.06": 7,
       "25.07": 18,
       "25.08": 18,
       "25.09": 18,
@@ -31,7 +31,7 @@
     "details": "vscode 笔记",
     "link": "https://tnotesjs.github.io/TNotes.vscode/",
     "created_at": 1750939332000,
-    "updated_at": 1764549259416,
+    "updated_at": 1764578534737,
     "days_since_birth": 9495
   },
   "port": 9495,
