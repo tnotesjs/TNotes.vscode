@@ -19,11 +19,19 @@
       "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--vscode.svg"
     },
     "title": "vscode",
-    "completed_notes_count": 23,
+    "completed_notes_count": {
+      "25.06": 0,
+      "25.07": 18,
+      "25.08": 18,
+      "25.09": 18,
+      "25.10": 18,
+      "25.11": 23,
+      "25.12": 23
+    },
     "details": "vscode 笔记",
     "link": "https://tnotesjs.github.io/TNotes.vscode/",
     "created_at": 1750939332000,
-    "updated_at": 1762780415982,
+    "updated_at": 1764548515910,
     "days_since_birth": 9495
   },
   "port": 9495,
