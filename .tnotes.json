@@ -31,7 +31,8 @@
       "26.01": 23,
       "26.02": 23,
       "26.03": 23,
-      "26.04": 23
+      "26.04": 23,
+      "26.05": 23
     },
     "details": "vscode 笔记",
     "link": "https://tnotesjs.github.io/TNotes.vscode/",
@@ -44,14 +45,6 @@
     {
       "text": "🏠 Home",
       "link": "/"
-    },
-    {
-      "text": "🎯 Words",
-      "link": "/Words"
-    },
-    {
-      "text": "⚙️ Settings",
-      "link": "/Settings"
     },
     {
       "text": "📒 TNotes",
