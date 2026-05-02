@@ -1,6 +1,52 @@
 [
   {
-    "text": "1. 学习资源与参考",
+    "text": "1. TNotes.vscode",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "✅ 0043. TNotes.vscode",
+        "link": "/notes/0043. TNotes.vscode/README"
+      },
+      {
+        "text": "⏰ 0101. new",
+        "link": "/notes/0101. new/README"
+      },
+      {
+        "text": "⏰ 0102. new",
+        "link": "/notes/0102. new/README"
+      },
+      {
+        "text": "⏰ 0103. new",
+        "link": "/notes/0103. new/README"
+      },
+      {
+        "text": "⏰ 0104. new",
+        "link": "/notes/0104. new/README"
+      },
+      {
+        "text": "⏰ 0105. new",
+        "link": "/notes/0105. new/README"
+      },
+      {
+        "text": "⏰ 0106. new",
+        "link": "/notes/0106. new/README"
+      },
+      {
+        "text": "⏰ 0107. new",
+        "link": "/notes/0107. new/README"
+      },
+      {
+        "text": "⏰ 0108. new",
+        "link": "/notes/0108. new/README"
+      },
+      {
+        "text": "⏰ 0109. new",
+        "link": "/notes/0109. new/README"
+      }
+    ]
+  },
+  {
+    "text": "2. 学习资源与参考",
     "collapsed": true,
     "items": [
       {
@@ -34,7 +80,7 @@
     ]
   },
   {
-    "text": "2. 概览与历史",
+    "text": "3. 概览与历史",
     "collapsed": true,
     "items": [
       {
@@ -56,7 +102,7 @@
     ]
   },
   {
-    "text": "3. 安装、版本与分发渠道",
+    "text": "4. 安装、版本与分发渠道",
     "collapsed": true,
     "items": [
       {
@@ -74,7 +120,7 @@
     ]
   },
   {
-    "text": "4. 核心界面与组件",
+    "text": "5. 核心界面与组件",
     "collapsed": true,
     "items": [
       {
@@ -100,7 +146,7 @@
     ]
   },
   {
-    "text": "5. 工作区与项目管理",
+    "text": "6. 工作区与项目管理",
     "collapsed": true,
     "items": [
       {
@@ -122,7 +168,7 @@
     ]
   },
   {
-    "text": "6. 文件与编辑操作与导航",
+    "text": "7. 文件与编辑操作与导航",
     "collapsed": true,
     "items": [
       {
@@ -168,7 +214,7 @@
     ]
   },
   {
-    "text": "7. 快捷键与自定义",
+    "text": "8. 快捷键与自定义",
     "collapsed": true,
     "items": [
       {
@@ -190,7 +236,7 @@
     ]
   },
   {
-    "text": "8. Tasks 与自动化",
+    "text": "9. Tasks 与自动化",
     "collapsed": true,
     "items": [
       {
@@ -216,7 +262,7 @@
     ]
   },
   {
-    "text": "9. 命令行与协议",
+    "text": "10. 命令行与协议",
     "collapsed": true,
     "items": [
       {
@@ -238,7 +284,7 @@
     ]
   },
   {
-    "text": "10. 调试 Debugging",
+    "text": "11. 调试 Debugging",
     "collapsed": true,
     "items": [
       {
@@ -264,7 +310,7 @@
     ]
   },
   {
-    "text": "11. Git 与源代码管理",
+    "text": "12. Git 与源代码管理",
     "collapsed": true,
     "items": [
       {
@@ -286,7 +332,7 @@
     ]
   },
   {
-    "text": "12. 扩展生态与插件实践",
+    "text": "13. 扩展生态与插件实践",
     "collapsed": true,
     "items": [
       {
@@ -316,7 +362,7 @@
     ]
   },
   {
-    "text": "13. 远程与开发环境",
+    "text": "14. 远程与开发环境",
     "collapsed": true,
     "items": [
       {
@@ -334,7 +380,7 @@
     ]
   },
   {
-    "text": "14. 配置与个性化",
+    "text": "15. 配置与个性化",
     "collapsed": true,
     "items": [
       {
@@ -388,7 +434,7 @@
     ]
   },
   {
-    "text": "15. 性能优化与故障排除",
+    "text": "16. 性能优化与故障排除",
     "collapsed": true,
     "items": [
       {
@@ -426,7 +472,7 @@
     ]
   },
   {
-    "text": "16. 安全与隐私",
+    "text": "17. 安全与隐私",
     "collapsed": true,
     "items": [
       {
@@ -444,7 +490,7 @@
     ]
   },
   {
-    "text": "17. 数据科学与 Notebook 支持",
+    "text": "18. 数据科学与 Notebook 支持",
     "collapsed": true,
     "items": [
       {
@@ -466,7 +512,7 @@
     ]
   },
   {
-    "text": "18. 生产力技巧与最佳实践",
+    "text": "19. 生产力技巧与最佳实践",
     "collapsed": true,
     "items": [
       {
