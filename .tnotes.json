@@ -32,13 +32,14 @@
       "26.02": 23,
       "26.03": 23,
       "26.04": 23,
-      "26.05": 24
+      "26.05": 24,
+      "26.06": 24
     },
     "details": "vscode 笔记",
     "link": "https://tnotesjs.github.io/TNotes.vscode/",
     "created_at": 1750939332000,
-    "updated_at": 1777707577000,
-    "days_since_birth": 9805
+    "updated_at": 1780377492000,
+    "days_since_birth": 9836
   },
   "port": 9495,
   "menuItems": [
