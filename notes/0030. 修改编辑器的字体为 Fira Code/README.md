@@ -2,28 +2,28 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 📒 配置步骤](#2--配置步骤)
-- [3. 📒 Windows 设备，查看本地已经安装的字体](#3--windows-设备查看本地已经安装的字体)
-- [4. 📒 Windows - firacode 下载 + 安装步骤](#4--windows---firacode-下载--安装步骤)
-- [5. 💻 测试](#5--测试)
-- [6. 🤖 Windows 设备，如何检查 fira code 是否已经安装？](#6--windows-设备如何检查-fira-code-是否已经安装)
+- [1. 概述](#1-概述)
+- [2. 配置步骤](#2-配置步骤)
+- [3. Windows 设备，查看本地已经安装的字体](#3-windows-设备查看本地已经安装的字体)
+- [4. Windows - firacode 下载 + 安装步骤](#4-windows---firacode-下载--安装步骤)
+- [5. 测试](#5-测试)
+- [6. Windows 设备，如何检查 fira code 是否已经安装？](#6-windows-设备如何检查-fira-code-是否已经安装)
   - [6.1. 方法 1: 使用控制面板](#61-方法-1-使用控制面板)
   - [6.2. 方法 2: 使用文件资源管理器](#62-方法-2-使用文件资源管理器)
   - [6.3. 方法 3: 使用命令提示符](#63-方法-3-使用命令提示符)
   - [6.4. 方法 4: 使用 PowerShell](#64-方法-4-使用-powershell)
   - [6.5. 安装 Fira Code 字体](#65-安装-fira-code-字体)
   - [6.6. 检查 VSCode 设置](#66-检查-vscode-设置)
-- [7. 🔗 引用](#7--引用)
+- [7. 引用](#7-引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - 在 Windows 上想要使用 Fira Code 字体时发现没生效，这篇笔记记录了如何解决在 VSCode 中配置 Fira Code 的操作流程。
 - 该笔记以配置 Fira Code 字体为例来介绍，其它类型的字体文件也可以按照相同的步骤进行配置。
 
-## 2. 📒 配置步骤
+## 2. 配置步骤
 
 下面以配置 Fira Code 字体为例。
 
@@ -45,7 +45,7 @@
 
 重启 VSCode，如果本地已经安装了 Fira Code 字体，可以通过输入 `!=` 来测试一下，看下最终展示的效果是一个叹号加一个等号，还是展示一个不等号。如果是展示一个不等号，意味着本地已经有 Fira Code 字体了。
 
-## 3. 📒 Windows 设备，查看本地已经安装的字体
+## 3. Windows 设备，查看本地已经安装的字体
 
 - 按 `Win + R` 打开运行对话框。
 - 输入 `control` 并按回车键，打开控制面板。
@@ -56,7 +56,7 @@
 
 如果没有找到 Fira Code，则需要先安装。
 
-## 4. 📒 Windows - firacode 下载 + 安装步骤
+## 4. Windows - firacode 下载 + 安装步骤
 
 https://github.com/tonsky/FiraCode/releases/tag/6.2
 
@@ -76,7 +76,7 @@ https://github.com/tonsky/FiraCode/releases/tag/6.2
 
 如果已经看到了 Fira Code，则说明已经安装成功。接下来就是重启 VSCode，查看最终效果。
 
-## 5. 💻 测试
+## 5. 测试
 
 随便新建一个 1.txt 文件，输入以下内容：
 
@@ -91,7 +91,7 @@ https://github.com/tonsky/FiraCode/releases/tag/6.2
 
 ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-12-17-47-55.png)
 
-## 6. 🤖 Windows 设备，如何检查 fira code 是否已经安装？
+## 6. Windows 设备，如何检查 fira code 是否已经安装？
 
 ::: details AI 回复
 
@@ -159,7 +159,7 @@ https://github.com/tonsky/FiraCode/releases/tag/6.2
 
 :::
 
-## 7. 🔗 引用
+## 7. 引用
 
 ::: details
 

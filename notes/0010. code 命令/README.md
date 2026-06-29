@@ -2,21 +2,21 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 💻 `code --help`](#2--code---help)
-- [3. 📒 code 命令选项](#3--code-命令选项)
+- [1. 概述](#1-概述)
+- [2. `code --help`](#2-code---help)
+- [3. code 命令选项](#3-code-命令选项)
   - [3.1. 选项大全](#31-选项大全)
   - [3.2. 常用的一些选项](#32-常用的一些选项)
   - [3.3. 插件相关选项](#33-插件相关选项)
-- [4. 💻 通过命令启动 VS Code 打开指定文件夹](#4--通过命令启动-vs-code-打开指定文件夹)
+- [4. 通过命令启动 VS Code 打开指定文件夹](#4-通过命令启动-vs-code-打开指定文件夹)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - 掌握 code 命令的基本使用。
 
-## 2. 💻 `code --help`
+## 2. `code --help`
 
 - `code --help` vscode 帮助命令，会打印 VS Code 的版本信息及各个命令的详细介绍。
 
@@ -139,7 +139,7 @@ code --help
 #                machines through a secure tunnel.
 ```
 
-## 3. 📒 code 命令选项
+## 3. code 命令选项
 
 ### 3.1. 选项大全
 
@@ -212,7 +212,7 @@ code --help
   - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-19-10-50-29.png)
   - 也可以通过 `code --list-extensions` 命令获取插件 ID，这个命令打印的插件列表，其实就是安装的插件的 ID 列表。
 
-## 4. 💻 通过命令启动 VS Code 打开指定文件夹
+## 4. 通过命令启动 VS Code 打开指定文件夹
 
 - 通过命令启动 VS Code
   - `code .` 使用 VS Code 打开当前文件夹

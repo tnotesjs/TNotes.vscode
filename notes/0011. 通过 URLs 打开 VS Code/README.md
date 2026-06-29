@@ -2,19 +2,19 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 💻 通过 URL 链接打开 VS Code](#2--通过-url-链接打开-vs-code)
-- [3. 📒 `vscode://` 协议](#3--vscode-协议)
-- [4. 💻 通过浏览器快速打开 VS Code](#4--通过浏览器快速打开-vs-code)
-- [5. 🔗 引用](#5--引用)
+- [1. 概述](#1-概述)
+- [2. 通过 URL 链接打开 VS Code](#2-通过-url-链接打开-vs-code)
+- [3. `vscode://` 协议](#3-vscode-协议)
+- [4. 通过浏览器快速打开 VS Code](#4-通过浏览器快速打开-vs-code)
+- [5. 引用](#5-引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - 记录了通过 URLs 打开 VS Code 的方法
 
-## 2. 💻 通过 URL 链接打开 VS Code
+## 2. 通过 URL 链接打开 VS Code
 
 ```bash
 # 打开项目
@@ -30,7 +30,7 @@ vscode://settings/setting.name
 vscode://settings/editor.wordWrap
 ```
 
-## 3. 📒 `vscode://` 协议
+## 3. `vscode://` 协议
 
 - `vscode://`
   - `vscode://` 是 VS Code 的内置自定义协议（Custom URI Scheme）。
@@ -59,7 +59,7 @@ vscode://file//Users/name/project
 vscode://file//etc/hosts
 ```
 
-## 4. 💻 通过浏览器快速打开 VS Code
+## 4. 通过浏览器快速打开 VS Code
 
 - 做法很简单，下面是基本流程：
 - 比如你可以随便在 C 盘建一个 test 文件夹，路径为 `C:/test`
@@ -83,7 +83,7 @@ vscode://file//etc/hosts
 >
 ```
 
-## 5. 🔗 引用
+## 5. 引用
 
 - https://code.visualstudio.com/docs/configure/command-line
   - 查看 VS Code 官方文档对 opening-vs-code-with-urls 的描述

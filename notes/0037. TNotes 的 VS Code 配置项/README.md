@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 
-- [1. 📂 .vscode/settings.json](#1--vscodesettingsjson)
+- [1. .vscode/settings.json](#1-vscodesettingsjson)
 - [2. ⚙️ Workbench（工作台相关配置）](#2-️-workbench工作台相关配置)
 - [3. ⚙️ Editor（编辑器相关配置）](#3-️-editor编辑器相关配置)
 - [4. ⚙️ Extensions（扩展相关配置）](#4-️-extensions扩展相关配置)
@@ -15,7 +15,7 @@
 
 <!-- endregion:toc -->
 
-## 1. 📂 .vscode/settings.json
+## 1. .vscode/settings.json
 
 ::: code-group
 

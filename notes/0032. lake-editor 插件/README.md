@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 📒 lake-editor 插件简介](#2--lake-editor-插件简介)
+- [1. 概述](#1-概述)
+- [2. lake-editor 插件简介](#2-lake-editor-插件简介)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - 介绍了一款在 vsocde 中编写语雀文档的插件。
 
-## 2. 📒 lake-editor 插件简介
+## 2. lake-editor 插件简介
 
 - lake-editor 插件
   - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-17-22-15-01.png)

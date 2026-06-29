@@ -2,26 +2,26 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 🤔 Tasks 是什么？](#2--tasks-是什么)
-- [3. 🤔 运行任务和直接运行命令有什么区别？](#3--运行任务和直接运行命令有什么区别)
-- [4. 🤔 任务的常见配置字段都有哪些？](#4--任务的常见配置字段都有哪些)
-- [5. 📒 Tasks 自动检测](#5--tasks-自动检测)
-- [6. 🤔 problemMatcher 是什么？](#6--problemmatcher-是什么)
-- [7. 🤔 problemMatcher 有什么用？](#7--problemmatcher-有什么用)
-- [8. 🤔 problemMatcher 都有那些类型？](#8--problemmatcher-都有那些类型)
-- [9. 🤔 预定义的问题匹配器都有哪些？](#9--预定义的问题匹配器都有哪些)
-- [10. 🤔 什么时候用内置的？什么时候需要自定义？](#10--什么时候用内置的什么时候需要自定义)
-- [11. 🤔 如何选择内置的 `problemMatcher`？判断流程是？](#11--如何选择内置的-problemmatcher判断流程是)
-- [12. 💻 demos.2 - 实现一个简单的 echo hello world 任务](#12--demos2---实现一个简单的-echo-hello-world-任务)
-- [13. 💻 demos.3 - 开发流程自动化 - `…… -> Lint -> Compile -> Bundle -> ……`](#13--demos3---开发流程自动化------lint---compile---bundle---)
-- [14. 💻 demos.1 - 实现一个简单的 gcc 编译任务](#14--demos1---实现一个简单的-gcc-编译任务)
-- [15. 💻 demos.4 - 后台运行的监听任务](#15--demos4---后台运行的监听任务)
-- [16. 🔗 引用](#16--引用)
+- [1. 概述](#1-概述)
+- [2. Tasks 是什么？](#2-tasks-是什么)
+- [3. 运行任务和直接运行命令有什么区别？](#3-运行任务和直接运行命令有什么区别)
+- [4. 任务的常见配置字段都有哪些？](#4-任务的常见配置字段都有哪些)
+- [5. Tasks 自动检测](#5-tasks-自动检测)
+- [6. problemMatcher 是什么？](#6-problemmatcher-是什么)
+- [7. problemMatcher 有什么用？](#7-problemmatcher-有什么用)
+- [8. problemMatcher 都有那些类型？](#8-problemmatcher-都有那些类型)
+- [9. 预定义的问题匹配器都有哪些？](#9-预定义的问题匹配器都有哪些)
+- [10. 什么时候用内置的？什么时候需要自定义？](#10-什么时候用内置的什么时候需要自定义)
+- [11. 如何选择内置的 `problemMatcher`？判断流程是？](#11-如何选择内置的-problemmatcher判断流程是)
+- [12. demos.2 - 实现一个简单的 echo hello world 任务](#12-demos2---实现一个简单的-echo-hello-world-任务)
+- [13. demos.3 - 开发流程自动化 - `…… -> Lint -> Compile -> Bundle -> ……`](#13-demos3---开发流程自动化------lint---compile---bundle---)
+- [14. demos.1 - 实现一个简单的 gcc 编译任务](#14-demos1---实现一个简单的-gcc-编译任务)
+- [15. demos.4 - 后台运行的监听任务](#15-demos4---后台运行的监听任务)
+- [16. 引用](#16-引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - 理解任务是什么
 - 理解任务的作用
@@ -30,13 +30,13 @@
 - 理解任务中的 problemMatcher 配置
 - 知道如何自定义 problemMatcher
 
-## 2. 🤔 Tasks 是什么？
+## 2. Tasks 是什么？
 
 - 这里提到的 Tasks 是 VS Code 中的任务功能，定义在 `.vscode/tasks.json` 配置文件中。
 - Tasks 可以把重复的工作自动化。
 - Tasks 的核心价值：**流程封装 + 自动调度**。
 
-## 3. 🤔 运行任务和直接运行命令有什么区别？
+## 3. 运行任务和直接运行命令有什么区别？
 
 - **🤔 我们是不是也可以不使用 tasks，直接在终端运行命令，区别无非就是是否会在问题面板中输出更友好的 bug 位置导航链接？**
   - **是的，你可以直接在终端运行命令，而且很多时候开发者确实这么做。但使用 `tasks.json` + `problemMatcher` 带来的不仅仅是“更友好的链接”，而是一整套集成开发体验的提升。**
@@ -78,7 +78,7 @@
   3. **团队项目**：提交 `.vscode/tasks.json`，让所有人受益。
   4. **结合快捷键**：比如 `Ctrl+Shift+B` 默认运行 build task，提升效率。
 
-## 4. 🤔 任务的常见配置字段都有哪些？
+## 4. 任务的常见配置字段都有哪些？
 
 | 字段名 | 说明 |
 | --- | --- |
@@ -95,7 +95,7 @@
 
 - ![图 5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-00-31-27.png)
 
-## 5. 📒 Tasks 自动检测
+## 5. Tasks 自动检测
 
 - Visual Studio Code 为 Gulp、Grunt、Jake 和 npm 提供了 Task 自动检测的支持，无须开发者手动配置 tasks.json 文件。
 - 如果你正在开发一个 Node.js 的项目，则项目中通常会有一个 package.json 文件，Visual Studio Code 会通过 package.json 自动检测出相应的 npm Task。当然，你也可以将这些 npm scripts 添加到 tasks.json 中，不过这并不会覆盖自动检测的 npm tasks，两者会共存于 tasks 列表中。
@@ -227,7 +227,7 @@
 
 :::
 
-## 6. 🤔 problemMatcher 是什么？
+## 6. problemMatcher 是什么？
 
 - 先从字面上来理解：
   - problem 表示“问题”
@@ -256,7 +256,7 @@
   - 自定义 matcher 需要正确配置正则和路径解析。
   - 正确配置后，可实现“点击错误跳转到代码行”的开发体验。
 
-## 7. 🤔 problemMatcher 有什么用？
+## 7. problemMatcher 有什么用？
 
 - 当你运行一个构建任务（比如使用 `gcc` 编译 C 程序、`tsc` 编译 TypeScript、`eslint` 检查代码等），编译器或工具通常会在终端输出错误或警告信息。`problemMatcher` 的作用就是：
 - **1️⃣ 自动识别错误和警告，并将这些信息汇总显示到“问题”面板中。**
@@ -268,13 +268,13 @@
 - 你可以在 `.vscode/tasks.json` 中结合 `watch` 模式和 `problemMatcher` 实现自动构建 + 实时错误提示，以此来提升开发效率。
 - 🤔
 
-## 8. 🤔 problemMatcher 都有那些类型？
+## 8. problemMatcher 都有那些类型？
 
 - 【1】空数组：表示不匹配任何问题，即便任务运行出现了错误，也不会提示任何消息。
 - 【2】预设的问题匹配器：比如 `$tsc`，表示任务被执行时，VS Code 会尝试从输出中提取 TypeScript 错误信息。
 - 【3】自定义的问题匹配器：查阅官方文档自行配置匹配规则，通过正则来匹配。
 
-## 9. 🤔 预定义的问题匹配器都有哪些？
+## 9. 预定义的问题匹配器都有哪些？
 
 - VSCode 内置 Problem Matcher 参考表
 
@@ -294,7 +294,7 @@
 - 预设好的这些 matcher 可以直接拿来用，不需要再自行手写。
 - 不需要自己手写 matcher 的情况其实蛮多的，社区找一找基本都能找到，以 gcc 为例，你完全可以通过安装 Microsoft 的 C/C++ 插件来自动注入 `$gcc` 的 matcher，然后直接使用它。
 
-## 10. 🤔 什么时候用内置的？什么时候需要自定义？
+## 10. 什么时候用内置的？什么时候需要自定义？
 
 - 选择使用 **内置的 `problemMatcher`** 还是**自定义的**，取决于你使用的构建工具和输出格式。
 - **使用内置 `problemMatcher` 的情况（推荐优先尝试）**
@@ -334,7 +334,7 @@
   - 先尝试用内置的来试试看。
   - 如果对于内置匹配器满足不了需求，再自行编写正则来匹配。
 
-## 11. 🤔 如何选择内置的 `problemMatcher`？判断流程是？
+## 11. 如何选择内置的 `problemMatcher`？判断流程是？
 
 - 你可以按照以下流程图来选择：
 
@@ -362,7 +362,7 @@
 | 用 `python my_checker.py` 输出 `error: file.py:10: bad syntax` | ❌ 否 | 自定义 |
 | 用 `make` 调用脚本，输出带 `[ERROR]` 前缀 | ❌ 否 | 自定义 |
 
-## 12. 💻 demos.2 - 实现一个简单的 echo hello world 任务
+## 12. demos.2 - 实现一个简单的 echo hello world 任务
 
 ::: code-group
 
@@ -374,7 +374,7 @@
 - 任务执行后，终端输出的内容如下：
 - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-00-03-36.png)
 
-## 13. 💻 demos.3 - 开发流程自动化 - `…… -> Lint -> Compile -> Bundle -> ……`
+## 13. demos.3 - 开发流程自动化 - `…… -> Lint -> Compile -> Bundle -> ……`
 
 ```json
 {
@@ -519,7 +519,7 @@ graph LR
 - 异常运行，有报错的情况：2.js 抛出错误
   - ![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-00-20-48.png)
 
-## 14. 💻 demos.1 - 实现一个简单的 gcc 编译任务
+## 14. demos.1 - 实现一个简单的 gcc 编译任务
 
 ::: code-group
 
@@ -560,7 +560,7 @@ src/main.c:11:11: error: incompatible integer to pointer conversion initializing
 
 :::
 
-## 15. 💻 demos.4 - 后台运行的监听任务
+## 15. demos.4 - 后台运行的监听任务
 
 ::: code-group
 
@@ -575,7 +575,7 @@ src/main.c:11:11: error: incompatible integer to pointer conversion initializing
 - 启动 watch 任务之后，它会在后台持续运行，一旦 `src/1.ts` 文件内容发生变化，就会自动执行 `tsc` 完成编译工作，重新生成 `dist/1.js` 文件。
 - ![图 6](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-27-01-29-00.png)
 
-## 16. 🔗 引用
+## 16. 引用
 
 - https://code.visualstudio.com/docs/debugtest/tasks
   - VSCode tasks

@@ -2,19 +2,19 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 🤔 如何查看 tasks 配置字段都有哪些？](#2--如何查看-tasks-配置字段都有哪些)
+- [1. 概述](#1-概述)
+- [2. 如何查看 tasks 配置字段都有哪些？](#2-如何查看-tasks-配置字段都有哪些)
 - [3. ⚙️ Schema for tasks.json](#3-️-schema-for-tasksjson)
-- [4. 🔗 引用](#4--引用)
+- [4. 引用](#4-引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - 了解 tasks 的各配置字段的作用
 - 知道如何查阅 tasks 的配置字段
 
-## 2. 🤔 如何查看 tasks 配置字段都有哪些？
+## 2. 如何查看 tasks 配置字段都有哪些？
 
 - 【方式 1】查阅官方文档 - Schema for tasks.json
   - https://code.visualstudio.com/docs/reference/tasks-appendix
@@ -825,7 +825,7 @@ interface RunOptions {
 
 :::
 
-## 4. 🔗 引用
+## 4. 引用
 
 - https://code.visualstudio.com/docs/reference/tasks-appendix
   - VSCode 官方文档 - Schema for tasks.json - 用于查阅 tasks 的数据结构

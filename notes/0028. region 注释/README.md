@@ -2,17 +2,17 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 📒 region 注释的写法和作用](#2--region-注释的写法和作用)
-- [3. 💻 demos.1 - region 注释示例](#3--demos1---region-注释示例)
+- [1. 概述](#1-概述)
+- [2. region 注释的写法和作用](#2-region-注释的写法和作用)
+- [3. demos.1 - region 注释示例](#3-demos1---region-注释示例)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - 介绍了在 VSCode 中如何书写 region 注释，以及 region 注释的作用。
 
-## 2. 📒 region 注释的写法和作用
+## 2. region 注释的写法和作用
 
 - region 注释的格式非常简单，只需要在开始位置加上 region，结束位置加上 endregion 即可。
 - region 注释的作用：
@@ -26,7 +26,7 @@
 // #endregion 描述信息
 ```
 
-## 3. 💻 demos.1 - region 注释示例
+## 3. demos.1 - region 注释示例
 
 ::: code-group
 

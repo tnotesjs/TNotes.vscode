@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 📒 `explorer.confirmDelete` 配置简介](#2--explorerconfirmdelete-配置简介)
+- [1. 概述](#1-概述)
+- [2. `explorer.confirmDelete` 配置简介](#2-explorerconfirmdelete-配置简介)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - 介绍 VS Code 的一个配置 `confirmDelete` 的作用及其使用场景。
 
-## 2. 📒 `explorer.confirmDelete` 配置简介
+## 2. `explorer.confirmDelete` 配置简介
 
 - `explorer.confirmDelete` 配置字段的默认值为 `true`，意味着在删除资源的时候，会弹出确认提示框：
   - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-27-22-31-09.png)

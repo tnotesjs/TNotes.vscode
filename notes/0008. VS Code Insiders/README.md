@@ -2,18 +2,18 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
-- [2. 📒 VS Code Insiders](#2--vs-code-insiders)
-- [3. 💻 使用预览版来打开指定文件夹](#3--使用预览版来打开指定文件夹)
-- [4. 🔗 引用](#4--引用)
+- [1. 概述](#1-概述)
+- [2. VS Code Insiders](#2-vs-code-insiders)
+- [3. 使用预览版来打开指定文件夹](#3-使用预览版来打开指定文件夹)
+- [4. 引用](#4-引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 概述
 
 - 认识 VS Code Insiders
 
-## 2. 📒 VS Code Insiders
+## 2. VS Code Insiders
 
 - 🤔 什么是 Visual Studio Code Insiders？
   - Visual Studio Code Insiders 是一个 **每日更新的开发预览版**，它包含了即将在正式版（Stable）中发布的最新功能、改进和修复，但可能还不完全稳定，适合喜欢尝鲜或希望提前测试新功能的开发者使用。
@@ -41,14 +41,14 @@
 | 功能 | 已经发布、经过测试的功能 | 包含新功能、实验性功能 |
 | 使用建议 | 推荐日常使用 | 推荐尝鲜、测试、不用于生产环境 |
 
-## 3. 💻 使用预览版来打开指定文件夹
+## 3. 使用预览版来打开指定文件夹
 
 ```bash
 code-insiders . # 打开当前文件夹
 code-insiders <file> # 打开指定文件夹
 ```
 
-## 4. 🔗 引用
+## 4. 引用
 
 - https://code.visualstudio.com/insiders/
   - Download Visual Studio Code Insiders
