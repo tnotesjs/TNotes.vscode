@@ -3,7 +3,7 @@
   "name": "TNotes.vscode",
   "description": "vscode 笔记",
   "icon": {
-    "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--vscode.svg"
+    "src": "../assets/kb-icon.svg"
   },
   "repositoryUrl": "https://github.com/tnotesjs/TNotes.vscode",
   "port": 9495,
